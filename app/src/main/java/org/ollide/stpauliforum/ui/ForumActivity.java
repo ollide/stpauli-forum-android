@@ -1,5 +1,7 @@
 package org.ollide.stpauliforum.ui;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +15,7 @@ import android.view.View;
 import org.ollide.stpauliforum.ForumApp;
 import org.ollide.stpauliforum.R;
 import org.ollide.stpauliforum.api.ForumService;
+import org.ollide.stpauliforum.model.Forum;
 import org.ollide.stpauliforum.model.xml.TopicXmlList;
 import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
 import org.ollide.stpauliforum.ui.adapter.TopicAdapter;
@@ -28,6 +31,7 @@ import retrofit2.Response;
 public class ForumActivity extends AppCompatActivity {
 
     public static final String EXTRA_FORUM_ID = "forumId";
+    public static final String EXTRA_FORUM_NAME = "forumName";
 
     @Inject
     ForumService forumService;
@@ -36,6 +40,14 @@ public class ForumActivity extends AppCompatActivity {
     RecyclerView recyclerView;
 
     private int forumId;
+    private String forumName;
+
+    public static Intent startWithForumIntent(Context ctx, Forum forum) {
+        Intent in = new Intent(ctx, ForumActivity.class);
+        in.putExtra(EXTRA_FORUM_ID, forum.getId());
+        in.putExtra(EXTRA_FORUM_NAME, forum.getName());
+        return in;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,11 +72,12 @@ public class ForumActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setTitle("St. Pauli Fanaktionen");
 
         Bundle extras = getIntent().getExtras();
         if (extras != null && extras.containsKey(EXTRA_FORUM_ID)) {
             forumId = extras.getInt(EXTRA_FORUM_ID);
+            forumName = extras.getString(EXTRA_FORUM_NAME, "");
+            actionBar.setTitle(forumName);
         } else {
             forumId = 4;
         }

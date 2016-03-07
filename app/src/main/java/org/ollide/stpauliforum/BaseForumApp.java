@@ -4,7 +4,9 @@ import android.app.Application;
 
 import net.danlew.android.joda.JodaTimeAndroid;
 
+import org.ollide.stpauliforum.api.ApiModule;
 import org.ollide.stpauliforum.di.AndroidModule;
+import org.ollide.stpauliforum.di.DaggerForumComponent;
 import org.ollide.stpauliforum.di.ForumComponent;
 
 public abstract class BaseForumApp extends Application {
@@ -21,8 +23,6 @@ public abstract class BaseForumApp extends Application {
 
         instance = this;
 
-        // Perform injection
-        //Injector.init(this, )
         component = DaggerComponentInitializer.init();
 
         onAfterInjection();
@@ -49,6 +49,7 @@ public abstract class BaseForumApp extends Application {
         public static ForumComponent init() {
             return DaggerForumComponent.builder()
                     .androidModule(new AndroidModule())
+                    .apiModule(new ApiModule())
                     .build();
         }
     }

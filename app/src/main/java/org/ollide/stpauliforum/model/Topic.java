@@ -1,13 +1,20 @@
 package org.ollide.stpauliforum.model;
 
 import org.joda.time.LocalDateTime;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
+import org.ollide.stpauliforum.model.xml.TopicXml;
 
 public class Topic {
 
+    public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
+
     private int id;
     private String name;
+    private String snippet;
 
     private int forumId;
+    private String forumName;
 
     private int replies;
     private User author;
@@ -16,6 +23,22 @@ public class Topic {
     private LocalDateTime lastReplyDate;
     private User lastReplyUser;
     private int lastPostId;
+
+    public static Topic fromXml(TopicXml topicXml) {
+        Topic t = new Topic();
+
+        String[] split = topicXml.getTitle().split(";");
+        String date = split[0];
+        String forumName = split[1];
+        String topicName = split[2];
+
+        t.setName(topicName);
+        t.setForumName(forumName);
+        t.setSnippet(topicXml.getDescription().trim().replace("\n", " ").replaceAll(" +", " "));
+        t.setLastReplyDate(FORMATTER.parseLocalDateTime(date));
+
+        return t;
+    }
 
     public int getId() {
         return id;
@@ -33,12 +56,28 @@ public class Topic {
         this.name = name;
     }
 
+    public String getSnippet() {
+        return snippet;
+    }
+
+    public void setSnippet(String snippet) {
+        this.snippet = snippet;
+    }
+
     public int getForumId() {
         return forumId;
     }
 
     public void setForumId(int forumId) {
         this.forumId = forumId;
+    }
+
+    public String getForumName() {
+        return forumName;
+    }
+
+    public void setForumName(String forumName) {
+        this.forumName = forumName;
     }
 
     public int getReplies() {

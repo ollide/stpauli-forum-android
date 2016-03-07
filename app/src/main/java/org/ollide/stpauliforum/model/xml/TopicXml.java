@@ -4,6 +4,7 @@ public class TopicXml {
 
     private String title;
     private String link;
+    private String description;
 
     public String getTitle() {
         return title;
@@ -19,5 +20,13 @@ public class TopicXml {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

@@ -1,6 +1,7 @@
 package org.ollide.stpauliforum.di;
 
 import org.ollide.stpauliforum.BaseForumApp;
+import org.ollide.stpauliforum.ui.ForumActivity;
 import org.ollide.stpauliforum.MainActivity;
 import org.ollide.stpauliforum.api.ApiModule;
 
@@ -21,4 +22,5 @@ public interface ForumComponent {
 
     void inject(MainActivity target);
 
+    void inject(ForumActivity target);
 }

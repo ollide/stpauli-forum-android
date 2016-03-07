@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 
 public interface ForumService {
 
-    @GET("rdf/rdf.php?&type=latest&titlepattern=__DATE__;__TITLE__&chars=0")
+    @GET("rdf/rdf.php?type=latest&titlepattern=__DATE__;__FORUM__;__TITLE__&chars=80")
     Call<TopicXmlList> getTopicsInForum(@Query("fid") int forumId, @Query("count") int count);
 
 }

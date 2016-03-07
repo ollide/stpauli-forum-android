@@ -2,7 +2,17 @@ package org.ollide.stpauliforum.model;
 
 import java.util.List;
 
-public class Category {
+public class Category implements ForumArea {
+
+    public Category() {
+        // default constructor
+    }
+
+    public Category(int id, String name, List<Forum> forums) {
+        this.id = id;
+        this.name = name;
+        this.forums = forums;
+    }
 
     private int id;
     private String name;

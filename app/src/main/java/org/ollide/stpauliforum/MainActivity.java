@@ -1,26 +1,47 @@
 package org.ollide.stpauliforum;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
-import org.ollide.stpauliforum.api.ForumService;
-import org.ollide.stpauliforum.model.xml.TopicXmlList;
+import org.ollide.stpauliforum.model.Forum;
+import org.ollide.stpauliforum.ui.ForumActivity;
+import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
+import org.ollide.stpauliforum.ui.adapter.ForumAdapter;
 
-import javax.inject.Inject;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
-import retrofit2.Call;
+public class MainActivity extends AppCompatActivity implements ForumAdapter.OnItemClickListener {
 
-public class MainActivity extends AppCompatActivity {
-
-    @Inject
-    ForumService forumService;
+    @Bind(R.id.mainRecyclerView)
+    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         ((ForumApp) getApplicationContext()).getComponent().inject(this);
 
-        Call<TopicXmlList> topicsInForum = forumService.getTopicsInForum(4, 30);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(layoutManager);
+
+        final ForumAdapter adapter = new ForumAdapter();
+        adapter.setOnItemClickListener(this);
+
+        recyclerView.setAdapter(adapter);
+        RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, LinearLayoutManager.VERTICAL);
+        recyclerView.addItemDecoration(itemDecoration);
+    }
+
+    @Override
+    public void onItemClick(View view, Forum forum) {
+        Intent in = ForumActivity.startWithForumIntent(MainActivity.this, forum);
+        startActivity(in);
     }
 }

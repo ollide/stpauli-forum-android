@@ -27,11 +27,6 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicAdapter.TopicViewHol
         notifyDataSetChanged();
     }
 
-    public void addPosts(List<TopicXml> posts) {
-        this.topics.addAll(posts);
-        notifyDataSetChanged();
-    }
-
     @Override
     public TopicViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.recyclerview_item, viewGroup, false);
@@ -77,13 +72,14 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicAdapter.TopicViewHol
         @Override
         public void onClick(View v) {
             if (clickListener != null) {
-                clickListener.onItemClick(v, topics.get(getAdapterPosition()));
+                TopicXml topicXml = topics.get(getAdapterPosition());
+                clickListener.onItemClick(v, Topic.fromXml(topicXml));
             }
         }
     }
 
     public interface OnItemClickListener {
-        void onItemClick(View view, TopicXml post);
+        void onItemClick(View view, Topic topic);
     }
 
     public void setOnItemClickListener(final OnItemClickListener itemClickListener) {

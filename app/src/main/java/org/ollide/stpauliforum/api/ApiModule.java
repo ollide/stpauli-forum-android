@@ -52,4 +52,10 @@ public class ApiModule {
         return retrofit.create(ForumService.class);
     }
 
+    @Provides
+    @Singleton
+    TopicService provideTopicService(Retrofit retrofit) {
+        return retrofit.create(TopicService.class);
+    }
+
 }

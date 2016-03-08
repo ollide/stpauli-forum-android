@@ -16,6 +16,7 @@ import org.ollide.stpauliforum.ForumApp;
 import org.ollide.stpauliforum.R;
 import org.ollide.stpauliforum.api.ForumService;
 import org.ollide.stpauliforum.model.Forum;
+import org.ollide.stpauliforum.model.Topic;
 import org.ollide.stpauliforum.model.xml.TopicXmlList;
 import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
 import org.ollide.stpauliforum.ui.adapter.TopicAdapter;
@@ -27,8 +28,9 @@ import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import timber.log.Timber;
 
-public class ForumActivity extends AppCompatActivity {
+public class ForumActivity extends AppCompatActivity implements TopicAdapter.OnItemClickListener {
 
     public static final String EXTRA_FORUM_ID = "forumId";
     public static final String EXTRA_FORUM_NAME = "forumName";
@@ -87,6 +89,8 @@ public class ForumActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         final TopicAdapter adapter = new TopicAdapter();
+        adapter.setOnItemClickListener(this);
+
         recyclerView.setAdapter(adapter);
         RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, LinearLayoutManager.VERTICAL);
         recyclerView.addItemDecoration(itemDecoration);
@@ -102,5 +106,10 @@ public class ForumActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public void onItemClick(View view, Topic topic) {
+        Timber.i("Topic '%s' clicked", topic.getName());
     }
 }

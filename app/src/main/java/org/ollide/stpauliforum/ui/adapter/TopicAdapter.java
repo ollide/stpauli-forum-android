@@ -45,7 +45,13 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicAdapter.TopicViewHol
         String header = String.format("%s  -  %s", timeAgo, topic.getForumName());
         viewHolder.header.setText(header);
 
-        viewHolder.description.setText(topic.getSnippet());
+        String desc = topic.getSnippet();
+        if (desc == null || desc.isEmpty()) {
+            viewHolder.description.setVisibility(View.GONE);
+        } else {
+            viewHolder.description.setVisibility(View.VISIBLE);
+        }
+        viewHolder.description.setText(desc);
     }
 
     @Override

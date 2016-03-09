@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="?android:attr/selectableItemBackground"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
 
     <TextView
         android:id="@+id/header"
@@ -13,7 +15,6 @@
         android:maxLines="1"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="5dp"
         android:textAppearance="?android:attr/textAppearanceSmall"
         tools:text="1 hour ago - St. Pauli Fanaktionen" />
 
@@ -33,7 +34,6 @@
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:maxLines="1"
-        android:paddingBottom="5dp"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:textAppearance="?android:attr/textAppearanceSmall"

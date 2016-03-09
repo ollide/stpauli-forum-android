@@ -17,10 +17,10 @@ public final class Forums {
     public static final Forum SP_FANAKTIONEN = new Forum(4, "St. Pauli Fanaktionen", "Fanverhalten, Aktionen, Choreographien...", Collections.<Topic>emptyList());
     public static final Forum SP_FANLADEN = new Forum(2, "St. Pauli Fanladen", "Alles zum Fanladen und den dort beheimateten Gruppen (Übersteiger, Fish e.V. ...)", Collections.<Topic>emptyList());
     public static final Forum FANRAEUME = new Forum(66, "Fanräume", "mehr Raum für Fans", Collections.<Topic>emptyList());
-    public static final Forum FANCLUB_SPRECHERRAT = new Forum(39, "Fanclub Sprecherrat", "", Collections.<Topic>emptyList());
-    public static final Forum SOZIALROMANTIKER = new Forum(59, "Sozialromantiker und andere große Protestaktionen", "", Collections.<Topic>emptyList());
-    public static final Forum FANS_WELTWEIT = new Forum(43, "Fans weltweit", "", Collections.<Topic>emptyList());
-    public static final Forum FLOHMARKT = new Forum(13, "Flohmarkt", "", Collections.<Topic>emptyList());
+    public static final Forum FANCLUB_SPRECHERRAT = new Forum(39, "Fanclub Sprecherrat", "Alles über den Fanclubssprecherrat", Collections.<Topic>emptyList());
+    public static final Forum SOZIALROMANTIKER = new Forum(59, "Sozialromantiker und andere große Protestaktionen", "Alles zu großen Fanprotestaktionen und -initiativen", Collections.<Topic>emptyList());
+    public static final Forum FANS_WELTWEIT = new Forum(43, "Fans weltweit", "Fanangelegenheiten, die nicht direkt mit dem FC St. Pauli zu tun haben.", Collections.<Topic>emptyList());
+    public static final Forum FLOHMARKT = new Forum(13, "Flohmarkt", "Kartentausch - Mitfahrgelegenheiten - Pennplätze - allgemeine Fragen\nAchtung: Kein Schwarzmarkt, nur faire Preise", Collections.<Topic>emptyList());
 
     public static final Forum FCSTPAULI = new Forum(3, "FC St. Pauli", "Vorstand, Abteilungen, Vermarktung", Collections.<Topic>emptyList());
     public static final Forum FANSHOP = new Forum(44, "Fanshop/Merchandising", "Klamotten, Merch und sonstiger Krams direkt aus dem Fanshop", Collections.<Topic>emptyList());

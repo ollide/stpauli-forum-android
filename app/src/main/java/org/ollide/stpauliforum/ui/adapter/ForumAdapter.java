@@ -56,7 +56,7 @@ public class ForumAdapter extends RecyclerView.Adapter<ForumAdapter.AreaViewHold
             } else {
                 viewHolder.description.setVisibility(View.VISIBLE);
             }
-            viewHolder.description.setText(forum.getDescription());
+            viewHolder.description.setText(desc);
         }
     }
 

@@ -5,6 +5,8 @@ import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.ollide.stpauliforum.model.xml.TopicXml;
 
+import timber.log.Timber;
+
 public class Topic {
 
     public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
@@ -27,6 +29,15 @@ public class Topic {
     public static Topic fromXml(TopicXml topicXml) {
         Topic t = new Topic();
 
+        String lastPostLink = topicXml.getLink();
+        String idTxt = lastPostLink.substring(
+                lastPostLink.lastIndexOf("#") + 1, lastPostLink.length());
+        try {
+            t.setLastPostId(Integer.parseInt(idTxt));
+        } catch (NumberFormatException e) {
+            Timber.i("couldn't parse last post's id from link %s", lastPostLink);
+        }
+
         String[] split = topicXml.getTitle().split(";");
         String date = split[0];
         String forumName = split[1];
@@ -34,7 +45,12 @@ public class Topic {
 
         t.setName(topicName);
         t.setForumName(forumName);
-        t.setSnippet(topicXml.getDescription().trim().replace("\n", " ").replaceAll(" +", " "));
+
+        String description = topicXml.getDescription();
+        if (description != null) {
+            t.setSnippet(description.trim().replace("\n", " ").replaceAll(" +", " "));
+        }
+
         t.setLastReplyDate(FORMATTER.parseLocalDateTime(date));
 
         return t;

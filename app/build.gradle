@@ -49,6 +49,12 @@ dependencies {
 
     compile 'com.jakewharton:butterknife:7.0.1'
 
+    // Html parsing
+    compile 'org.jsoup:jsoup:1.8.3'
+
+    // image loading
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
     // Logging
     compile 'com.jakewharton.timber:timber:3.0.2'
 

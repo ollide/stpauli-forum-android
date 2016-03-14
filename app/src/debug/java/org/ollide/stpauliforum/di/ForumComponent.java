@@ -1,9 +1,10 @@
 package org.ollide.stpauliforum.di;
 
 import org.ollide.stpauliforum.BaseForumApp;
-import org.ollide.stpauliforum.ui.ForumActivity;
 import org.ollide.stpauliforum.MainActivity;
 import org.ollide.stpauliforum.api.ApiModule;
+import org.ollide.stpauliforum.ui.ForumActivity;
+import org.ollide.stpauliforum.ui.TopicActivity;
 
 import javax.inject.Singleton;
 
@@ -23,4 +24,6 @@ public interface ForumComponent {
     void inject(MainActivity target);
 
     void inject(ForumActivity target);
+
+    void inject(TopicActivity target);
 }

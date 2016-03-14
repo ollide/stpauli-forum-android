@@ -111,5 +111,7 @@ public class ForumActivity extends AppCompatActivity implements TopicAdapter.OnI
     @Override
     public void onItemClick(View view, Topic topic) {
         Timber.i("Topic '%s' clicked", topic.getName());
+        Intent in = TopicActivity.startWithTopicIntent(ForumActivity.this, topic);
+        startActivity(in);
     }
 }

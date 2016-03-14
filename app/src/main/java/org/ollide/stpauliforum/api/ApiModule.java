@@ -2,7 +2,9 @@ package org.ollide.stpauliforum.api;
 
 import android.content.Context;
 
+import org.ollide.stpauliforum.api.converter.PhpBbHtmlConverterFactory;
 import org.ollide.stpauliforum.api.network.CacheControlResponseInterceptor;
+import org.ollide.stpauliforum.api.network.ContentTypeResponseInterceptor;
 import org.ollide.stpauliforum.api.network.ForceCacheRequestInterceptor;
 
 import java.io.File;
@@ -33,6 +35,7 @@ public class ApiModule {
                 .cache(cache)
                 .addInterceptor(new ForceCacheRequestInterceptor())
                 .addNetworkInterceptor(new CacheControlResponseInterceptor())
+                .addNetworkInterceptor(new ContentTypeResponseInterceptor())
                 .build();
     }
 
@@ -42,6 +45,7 @@ public class ApiModule {
         return new Retrofit.Builder()
                 .client(client)
                 .baseUrl(BASE_URL)
+                .addConverterFactory(new PhpBbHtmlConverterFactory())
                 .addConverterFactory(SimpleXmlConverterFactory.create())
                 .build();
     }

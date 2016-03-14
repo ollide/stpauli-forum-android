@@ -34,14 +34,14 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:23.2.0'
 
     // Dagger
-    apt 'com.google.dagger:dagger-compiler:2.0.2'
-    compile 'com.google.dagger:dagger:2.0.2'
+    apt 'com.google.dagger:dagger-compiler:2.1'
+    compile 'com.google.dagger:dagger:2.1'
     provided 'javax.annotation:jsr250-api:1.0'
 
     // Network
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
-    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
-    compile("com.squareup.retrofit2:converter-simplexml:2.0.0-beta4") {
+    compile 'com.squareup.retrofit2:retrofit:2.0.0'
+    compile("com.squareup.retrofit2:converter-simplexml:2.0.0") {
         exclude module: 'stax'
         exclude module: 'stax-api'
         exclude module: 'xpp3'
@@ -56,7 +56,7 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
 
     // Logging
-    compile 'com.jakewharton.timber:timber:3.0.2'
+    compile 'com.jakewharton.timber:timber:4.1.1'
 
     compile 'net.danlew:android.joda:2.9.2'
 }

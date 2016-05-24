@@ -38,6 +38,10 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
     public static final int UNICODE_GRIN = 0x1F601;
     public static final String EMOJI_SMILE = "<img src=\"images/smiles/smile.gif\" alt=\"smile.gif\" border=\"0\">";
     public static final int UNICODE_SMILE = 0x1F642;
+    public static final String EMOJI_EEK = "<img src=\"images/smiles/eek.gif\" alt=\"eek.gif\" border=\"0\">";
+    public static final int UNICODE_EEK = 0x1F631;
+    public static final String EMOJI_COOL = "<img src=\"images/smiles/cool.gif\" alt=\"cool.gif\" border=\"0\">";
+    public static final int UNICODE_COOL = 0x1F60E;
 
     PostListResponseBodyConverter() {
         // package-private constructor
@@ -156,6 +160,8 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         message = message.replace(EMOJI_LOVE, getEmijoByUnicode(UNICODE_LOVE));
         message = message.replace(EMOJI_GRIN, getEmijoByUnicode(UNICODE_GRIN));
         message = message.replace(EMOJI_SMILE, getEmijoByUnicode(UNICODE_SMILE));
+        message = message.replace(EMOJI_EEK, getEmijoByUnicode(UNICODE_EEK));
+        message = message.replace(EMOJI_COOL, getEmijoByUnicode(UNICODE_COOL));
         return message;
     }
 

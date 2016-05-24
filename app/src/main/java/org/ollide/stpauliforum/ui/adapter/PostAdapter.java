@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import org.ollide.stpauliforum.R;
 import org.ollide.stpauliforum.model.Post;
 
@@ -38,6 +40,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
     @Override
     public void onBindViewHolder(PostViewHolder viewHolder, int i) {
         Post post = posts.get(i);
+
+        // TODO: DI Picasso
+        Picasso.with(viewHolder.avatar.getContext()).load(post.getAvatarUrl()).into(viewHolder.avatar);
 
         viewHolder.author.setText(post.getAuthor());
         viewHolder.date.setText(post.getPublishedAt());

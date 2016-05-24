@@ -6,6 +6,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.ollide.stpauliforum.api.ApiModule;
 import org.ollide.stpauliforum.model.Post;
 import org.ollide.stpauliforum.model.html.PostList;
 
@@ -105,6 +106,9 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         Elements imgs = authorTd.getElementsByTag("img");
         if (imgs.size() > 1) {
             String src = imgs.last().attr("src");
+            if (src.startsWith("images/")) {
+                src = ApiModule.BASE_URL + src;
+            }
             p.setAvatarUrl(src);
         }
 

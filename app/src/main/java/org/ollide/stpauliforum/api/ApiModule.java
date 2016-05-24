@@ -62,4 +62,10 @@ public class ApiModule {
         return retrofit.create(TopicService.class);
     }
 
+    @Provides
+    @Singleton
+    LoginService provideLoginService(Retrofit retrofit) {
+        return retrofit.create(LoginService.class);
+    }
+
 }

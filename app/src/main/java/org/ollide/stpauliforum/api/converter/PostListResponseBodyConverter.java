@@ -22,6 +22,23 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     public static final String CLASS_LINK_ICON = "snap_preview";
 
+    public static final String EMOJI_WINK = "<img src=\"images/smiles/wink.gif\" alt=\"wink.gif\" border=\"0\">";
+    public static final int UNICODE_WINK = 0x1f609;
+    public static final String EMOJI_DRINK = "<img src=\"images/smiles/drink.gif\" alt=\"drink.gif\" border=\"0\">";
+    public static final int UNICODE_DRINK = 0x1F37B;
+    public static final String EMOJI_ROFL = "<img src=\"images/smiles/rofl.gif\" alt=\"rofl.gif\" border=\"0\">";
+    public static final int UNICODE_ROFL = 0x1F606;
+    public static final String EMOJI_SCHUETTEL = "<img src=\"images/smiles/schuettel.gif\" alt=\"schuettel.gif\" border=\"0\">";
+    public static final int UNICODE_SCHUETTEL = 0x1F616;
+    public static final String EMOJI_FLEHAN = "<img src=\"images/smiles/flehan.gif\" alt=\"flehan.gif\" border=\"0\">";
+    public static final int UNICODE_FLEHAN = 0x1F64F;
+    public static final String EMOJI_LOVE = "<img src=\"images/smiles/love.gif\" alt=\"love.gif\" border=\"0\">";
+    public static final int UNICODE_LOVE = 0x1F60D;
+    public static final String EMOJI_GRIN = "<img src=\"images/smiles/grin.gif\" alt=\"grin.gif\" border=\"0\">";
+    public static final int UNICODE_GRIN = 0x1F601;
+    public static final String EMOJI_SMILE = "<img src=\"images/smiles/smile.gif\" alt=\"smile.gif\" border=\"0\">";
+    public static final int UNICODE_SMILE = 0x1F642;
+
     PostListResponseBodyConverter() {
         // package-private constructor
     }
@@ -124,8 +141,26 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         Element postbody = contentEl.getElementsByClass("postbody").get(0);
 
         String message = postbody.html();
+        message = replaceEmojiImagesWithUnicode(message);
         p.setMessage(message);
 
         return p;
     }
+
+    private String replaceEmojiImagesWithUnicode(String message) {
+        message = message.replace(EMOJI_WINK, getEmijoByUnicode(UNICODE_WINK));
+        message = message.replace(EMOJI_DRINK, getEmijoByUnicode(UNICODE_DRINK));
+        message = message.replace(EMOJI_ROFL, getEmijoByUnicode(UNICODE_ROFL));
+        message = message.replace(EMOJI_SCHUETTEL, getEmijoByUnicode(UNICODE_SCHUETTEL));
+        message = message.replace(EMOJI_FLEHAN, getEmijoByUnicode(UNICODE_FLEHAN));
+        message = message.replace(EMOJI_LOVE, getEmijoByUnicode(UNICODE_LOVE));
+        message = message.replace(EMOJI_GRIN, getEmijoByUnicode(UNICODE_GRIN));
+        message = message.replace(EMOJI_SMILE, getEmijoByUnicode(UNICODE_SMILE));
+        return message;
+    }
+
+    private String getEmijoByUnicode(int unicode){
+        return new String(Character.toChars(unicode));
+    }
+
 }

@@ -20,7 +20,7 @@ import org.ollide.stpauliforum.ui.adapter.PostAdapter;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -36,7 +36,7 @@ public class TopicActivity extends AppCompatActivity implements PostAdapter.OnIt
     @Inject
     TopicService topicService;
 
-    @Bind(R.id.postRecyclerView)
+    @BindView(R.id.postRecyclerView)
     RecyclerView recyclerView;
 
     private int topicId;

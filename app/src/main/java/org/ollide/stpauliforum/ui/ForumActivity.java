@@ -23,7 +23,7 @@ import org.ollide.stpauliforum.ui.adapter.TopicAdapter;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -38,7 +38,7 @@ public class ForumActivity extends AppCompatActivity implements TopicAdapter.OnI
     @Inject
     ForumService forumService;
 
-    @Bind(R.id.topicRecyclerView)
+    @BindView(R.id.topicRecyclerView)
     RecyclerView recyclerView;
 
     private int forumId;

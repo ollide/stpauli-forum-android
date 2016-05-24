@@ -12,12 +12,12 @@ import org.ollide.stpauliforum.ui.ForumActivity;
 import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
 import org.ollide.stpauliforum.ui.adapter.ForumAdapter;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements ForumAdapter.OnItemClickListener {
 
-    @Bind(R.id.mainRecyclerView)
+    @BindView(R.id.mainRecyclerView)
     RecyclerView recyclerView;
 
     @Override

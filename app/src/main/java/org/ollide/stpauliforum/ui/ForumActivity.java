@@ -75,15 +75,15 @@ public class ForumActivity extends AppCompatActivity implements TopicAdapter.OnI
         assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        Bundle extras = getIntent().getExtras();
-        if (extras != null && extras.containsKey(EXTRA_FORUM_ID)) {
-            forumId = extras.getInt(EXTRA_FORUM_ID);
-            forumName = extras.getString(EXTRA_FORUM_NAME, "");
+        Bundle bundle = (savedInstanceState != null) ? savedInstanceState : getIntent().getExtras();
+        if (bundle != null && bundle.containsKey(EXTRA_FORUM_ID)) {
+            forumId = bundle.getInt(EXTRA_FORUM_ID);
+            forumName = bundle.getString(EXTRA_FORUM_NAME, "");
             actionBar.setTitle(forumName);
         } else {
+            // TODO: throw exception - IllegalState
             forumId = 4;
         }
-
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -113,5 +113,12 @@ public class ForumActivity extends AppCompatActivity implements TopicAdapter.OnI
         Timber.i("Topic '%s' clicked", topic.getName());
         Intent in = TopicActivity.startWithTopicIntent(ForumActivity.this, topic);
         startActivity(in);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt(EXTRA_FORUM_ID, forumId);
+        outState.putString(EXTRA_FORUM_NAME, forumName);
     }
 }

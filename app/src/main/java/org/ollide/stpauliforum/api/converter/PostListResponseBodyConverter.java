@@ -1,5 +1,8 @@
 package org.ollide.stpauliforum.api.converter;
 
+import org.apache.commons.lang3.StringUtils;
+import org.joda.time.DateTimeZone;
+import org.joda.time.LocalDateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.jsoup.Jsoup;
@@ -8,10 +11,12 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.ollide.stpauliforum.api.ApiModule;
 import org.ollide.stpauliforum.model.Post;
+import org.ollide.stpauliforum.model.Quote;
 import org.ollide.stpauliforum.model.html.PostList;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import okhttp3.ResponseBody;
@@ -19,6 +24,7 @@ import okhttp3.ResponseBody;
 public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
+    public static final DateTimeFormatter FORMATTER_QUOTES = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
 
     public static final String CLASS_LINK_ICON = "snap_preview";
 
@@ -144,6 +150,8 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
         Element postbody = contentEl.getElementsByClass("postbody").get(0);
 
+        p.setQuotes(parseQuotesFromMessage(postbody));
+
         String message = postbody.html();
         message = replaceEmojiImagesWithUnicode(message);
         p.setMessage(message);
@@ -167,6 +175,58 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     private String getEmijoByUnicode(int unicode){
         return new String(Character.toChars(unicode));
+    }
+
+    protected List<Quote> parseQuotesFromMessage(Element postBody) {
+        Element tables = postBody.getElementsByTag("table").first();
+        if (tables == null) {
+            return Collections.emptyList();
+        }
+
+        List<Quote> quotes = new ArrayList<>();
+        Elements quoteTables = new Elements();
+        while (true) {
+            Element table = tables.select("table").last();
+            if (table == null) {
+                break;
+            }
+            if (table.parentNode() != null) {
+                table.remove();
+                quoteTables.add(table);
+            } else {
+                break;
+            }
+        }
+
+        for (Element quoteTable : quoteTables) {
+            quotes.add(parseQuote(quoteTable.getElementsByClass("quote").first(),
+                    quoteTable.getElementsByClass("genmed").first()));
+        }
+
+        // TODO remove 2 leading <br> from postBody
+
+        return quotes;
+    }
+
+    protected Quote parseQuote(Element quoteTd, Element authorSpan) {
+        Quote q = new Quote();
+
+        String authorHtml = authorSpan.html();
+        q.setAuthor(StringUtils.substringBetween(authorHtml, "</b>", " "));
+
+        // (Datum Originalbeitrag: 06.06.2016 12:27 GMT +1)
+        Element dateTextEl = quoteTd.child(0);
+        String dateText = StringUtils.substringBetween(dateTextEl.text(), "Originalbeitrag:", "GMT");
+        if (dateText != null) {
+            LocalDateTime quoteDateTime = FORMATTER_QUOTES.parseLocalDateTime(dateText.trim());
+            q.setPublishDate(quoteDateTime);
+            q.setPublishedAt(FORMATTER.print(quoteDateTime));
+        }
+        dateTextEl.remove();
+
+        q.setMessage(replaceEmojiImagesWithUnicode(quoteTd.text()));
+
+        return q;
     }
 
 }

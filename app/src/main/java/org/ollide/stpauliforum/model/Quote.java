@@ -2,20 +2,14 @@ package org.ollide.stpauliforum.model;
 
 import org.joda.time.LocalDateTime;
 
-import java.util.Collections;
-import java.util.List;
-
-public class Post {
+public class Quote {
 
     private String author;
-    private String avatarUrl;
 
     private String publishedAt;
     private LocalDateTime publishDate;
 
     private String message;
-
-    private List<Quote> quotes = Collections.emptyList();
 
     public String getAuthor() {
         return author;
@@ -23,14 +17,6 @@ public class Post {
 
     public void setAuthor(String author) {
         this.author = author;
-    }
-
-    public String getAvatarUrl() {
-        return avatarUrl;
-    }
-
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatarUrl = avatarUrl;
     }
 
     public String getPublishedAt() {
@@ -55,13 +41,5 @@ public class Post {
 
     public void setMessage(String message) {
         this.message = message;
-    }
-
-    public List<Quote> getQuotes() {
-        return quotes;
-    }
-
-    public void setQuotes(List<Quote> quotes) {
-        this.quotes = quotes;
     }
 }

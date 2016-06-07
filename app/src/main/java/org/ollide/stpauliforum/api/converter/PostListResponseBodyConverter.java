@@ -203,7 +203,12 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
                     quoteTable.getElementsByClass("genmed").first()));
         }
 
-        // TODO remove 2 leading <br> from postBody
+        // remove leading <br>s after quotes
+        Elements brs = postBody.select("br");
+        if (brs.size() >= 2) {
+            brs.get(0).remove();
+            brs.get(1).remove();
+        }
 
         return quotes;
     }

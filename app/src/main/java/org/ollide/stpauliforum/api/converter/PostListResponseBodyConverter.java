@@ -8,6 +8,7 @@ import org.joda.time.format.DateTimeFormatter;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.ollide.stpauliforum.api.ApiModule;
 import org.ollide.stpauliforum.model.Post;
@@ -149,6 +150,27 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         p.setPublishDate(FORMATTER.parseLocalDateTime(publishedAt));
 
         Element postbody = contentEl.getElementsByClass("postbody").get(0);
+
+        List<Node> nodes = postbody.childNodes();
+        List<Object> things = new ArrayList<>();
+        String msg = null;
+        for (Node node : nodes) {
+            if ("table".equals(node.nodeName())) {
+                if (msg != null) {
+                    things.add(msg);
+                    msg = null;
+                }
+                things.add("hier wäre ein ZITAT!!");
+                // quote
+            } else {
+                String nodeHtml = node.outerHtml();
+                msg = (msg != null) ? (msg + nodeHtml) : nodeHtml;
+            }
+        }
+        if (msg != null) {
+            things.add(msg);
+        }
+        // FIXME / WIP: things is now a list of quotes-author text-quote-text-quotes-text.. etc.
 
         p.setQuotes(parseQuotesFromMessage(postbody));
 

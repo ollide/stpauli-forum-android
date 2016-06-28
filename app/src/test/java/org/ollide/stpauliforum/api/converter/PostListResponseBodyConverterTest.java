@@ -1,8 +1,10 @@
 package org.ollide.stpauliforum.api.converter;
 
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
 import org.junit.Before;
 import org.junit.Test;
+import org.ollide.stpauliforum.model.Post;
 import org.ollide.stpauliforum.model.Quote;
 
 import java.util.List;
@@ -33,5 +35,12 @@ public class PostListResponseBodyConverterTest {
     public void testParseQuotesFromMessageWithNestedQuotes() throws Exception {
         List<Quote> quotes = converter.parseQuotesFromMessage(Jsoup.parse(MESSAGE_WITH_4_QUOTES));
         assertEquals(4, quotes.size());
+    }
+
+    @Test
+    public void testParsePost() {
+        Element postEl = Jsoup.parse(MESSAGE_WITH_MULTIPLE_QUOTES).getElementsByTag("tr").first();
+        Post post = converter.parsePost(postEl);
+        assertNotNull(post);
     }
 }

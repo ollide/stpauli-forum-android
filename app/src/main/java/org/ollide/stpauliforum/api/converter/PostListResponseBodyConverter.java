@@ -109,7 +109,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         return postList;
     }
 
-    private Post parsePost(Element postRow) {
+    protected Post parsePost(Element postRow) {
         Post p = new Post();
 
         // Structure Of 1 Post in HTML

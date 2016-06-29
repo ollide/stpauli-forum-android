@@ -20,6 +20,7 @@ import org.ollide.stpauliforum.model.html.PostList;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import okhttp3.ResponseBody;
 
@@ -27,6 +28,9 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
     public static final DateTimeFormatter FORMATTER_QUOTES = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
+
+    // eg. 'Mo 16 Jan ......'
+    public static final Pattern QUOTE_ILLEGAL_PATTERN = Pattern.compile("[A-Z][a-z] [0-9]+(.*)");
 
     public static final String CLASS_LINK_ICON = "snap_preview";
 
@@ -246,7 +250,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         Element dateTextEl = quoteTd.child(0);
         String dateText = StringUtils.substringBetween(dateTextEl.text(), "Originalbeitrag:", "GMT");
         if (dateText != null) {
-            LocalDateTime quoteDateTime = FORMATTER_QUOTES.parseLocalDateTime(dateText.trim());
+            LocalDateTime quoteDateTime = parseQuoteDateTime(dateText);
             q.setPublishDate(quoteDateTime);
             q.setPublishedAt(FORMATTER.print(quoteDateTime));
         }
@@ -255,6 +259,38 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         q.setMessage(replaceEmojiImagesWithUnicode(quoteTd.text()));
 
         return q;
+    }
+
+    protected LocalDateTime parseQuoteDateTime(String dateText) {
+        dateText = dateText.trim();
+        if (QUOTE_ILLEGAL_PATTERN.matcher(dateText).matches()) {
+            dateText = fixDateTimText(dateText);
+        }
+        return FORMATTER_QUOTES.parseLocalDateTime(dateText);
+    }
+
+    protected String fixDateTimText(String dateText) {
+        // strip 'Mo '
+        dateText = dateText.substring(3);
+
+        // replace 'Jan', 'Feb', ... with 01, 02,...
+        dateText = dateText.replace("Jan", "01");
+        dateText = dateText.replace("Feb", "02");
+        dateText = dateText.replace("Mar", "03");
+        dateText = dateText.replace("Apr", "04");
+        dateText = dateText.replace("Mai", "05");
+        dateText = dateText.replace("Jun", "06");
+        dateText = dateText.replace("Jul", "07");
+        dateText = dateText.replace("Aug", "08");
+        dateText = dateText.replace("Sep", "09");
+        dateText = dateText.replace("Okt", "10");
+        dateText = dateText.replace("Nov", "11");
+        dateText = dateText.replace("Dez", "12");
+
+        // migrate to other pattern
+        dateText = dateText.replaceAll(" ", ".");
+        dateText = dateText.replace(",.", " ");
+        return dateText;
     }
 
 }

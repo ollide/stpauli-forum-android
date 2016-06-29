@@ -1,5 +1,6 @@
 package org.ollide.stpauliforum.api.converter;
 
+import org.joda.time.LocalDateTime;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.junit.Before;
@@ -50,6 +51,13 @@ public class PostListResponseBodyConverterTest {
         Element postEl = Jsoup.parse(FULL_MESSAGE_WITH_NESTED_QUOTES).getElementsByTag("tr").first();
         Post post = converter.parsePost(postEl);
         assertNotNull(post);
+    }
+
+    @Test
+    public void testParseQuoteDateTime() {
+        String dateText = "Do 16 Jun 2016, 10:43";
+        LocalDateTime localDateTime = converter.parseQuoteDateTime(dateText);
+        assertNotNull(localDateTime);
     }
 
 }

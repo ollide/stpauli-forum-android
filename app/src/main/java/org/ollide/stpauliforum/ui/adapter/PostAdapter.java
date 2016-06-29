@@ -1,18 +1,22 @@
 package org.ollide.stpauliforum.ui.adapter;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
 import org.ollide.stpauliforum.R;
+import org.ollide.stpauliforum.model.Message;
 import org.ollide.stpauliforum.model.Post;
+import org.ollide.stpauliforum.model.Quote;
+import org.ollide.stpauliforum.ui.widget.QuoteView;
 
 import java.util.Collections;
 import java.util.List;
@@ -21,6 +25,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
 
     private List<Post> posts = Collections.emptyList();
     private OnItemClickListener clickListener;
+
+    private Context viewContext;
 
     public PostAdapter() {
         // default constructor
@@ -33,6 +39,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
 
     @Override
     public PostViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+        viewContext = viewGroup.getContext();
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.post_item, viewGroup, false);
         return new PostViewHolder(view);
     }
@@ -47,9 +54,18 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         viewHolder.author.setText(post.getAuthor());
         viewHolder.date.setText(post.getPublishedAt());
 
-        // TODO
-//        viewHolder.content.setText(Html.fromHtml(post.getMessage()));
-        viewHolder.content.setMovementMethod(LinkMovementMethod.getInstance());
+        for (Message message : post.getMessages()) {
+            if (message instanceof Quote) {
+                QuoteView qv = new QuoteView(viewContext);
+                qv.setQuote((Quote) message);
+                viewHolder.content.addView(qv);
+            } else {
+                TextView tv = new TextView(viewContext);
+                tv.setTextAppearance(viewContext, R.style.PostMessage);
+                tv.setText(Html.fromHtml(message.getMessage()));
+                viewHolder.content.addView(tv);
+            }
+        }
     }
 
     @Override
@@ -62,7 +78,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         ImageView avatar;
         TextView author;
         TextView date;
-        TextView content;
+        LinearLayout content;
 
         public PostViewHolder(View itemView) {
             super(itemView);
@@ -70,7 +86,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
             avatar = (ImageView) itemView.findViewById(R.id.authorAvatarIv);
             author = (TextView) itemView.findViewById(R.id.authorNameTv);
             date = (TextView) itemView.findViewById(R.id.publishDateTv);
-            content = (TextView) itemView.findViewById(R.id.postContentTv);
+            content = (LinearLayout) itemView.findViewById(R.id.postContentLayout);
 
             itemView.setOnClickListener(this);
         }

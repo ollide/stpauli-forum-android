@@ -13,6 +13,8 @@ public class Quote implements QuotedMessage {
 
     private String message;
 
+    private int depth;
+
     private Quote nestedQuote;
 
     public String getAuthor() {
@@ -45,6 +47,14 @@ public class Quote implements QuotedMessage {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
     }
 
     public void setNestedQuote(Quote nestedQuote) {

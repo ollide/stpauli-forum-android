@@ -26,6 +26,7 @@ import okhttp3.ResponseBody;
 
 public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
+    public static final DateTimeFormatter APP_FORMATTER = DateTimeFormat.forPattern("dd.MM.yy HH:mm");
     public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
     public static final DateTimeFormatter FORMATTER_QUOTES = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
 
@@ -160,7 +161,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         PostMessage message = null;
         for (Node node : postbody.childNodesCopy()) {
             if ("table".equals(node.nodeName())) {
-                if (message != null) {
+                if (message != null && !message.getMessage().isEmpty()) {
                     messages.add(message);
                     message = null;
                 }
@@ -170,17 +171,23 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
                 if (message == null) {
                     message = new PostMessage();
                 }
-                String msg = replaceEmojiImagesWithUnicode(node.outerHtml());
+                String msg = processPlainHtmlText(node.outerHtml());
                 message.setMessage(message.getMessage() + msg);
             }
         }
 
-        if (message != null) {
+        if (message != null && !message.getMessage().isEmpty()) {
             messages.add(message);
         }
         p.setMessages(messages);
 
         return p;
+    }
+
+    private String processPlainHtmlText(String message) {
+        message = replaceEmojiImagesWithUnicode(message);
+        message = message.replaceAll("(\r\n|\n\r|\r|\n)", "");
+        return message;
     }
 
     private String replaceEmojiImagesWithUnicode(String message) {
@@ -197,7 +204,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         return message;
     }
 
-    private String getEmijoByUnicode(int unicode){
+    private String getEmijoByUnicode(int unicode) {
         return new String(Character.toChars(unicode));
     }
 
@@ -226,7 +233,8 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         Quote q = null;
         while (!quotes.isEmpty()) {
             Quote nested = q;
-            q = quotes.remove(quotes.size() - 1);
+            q = quotes.remove(0);
+            q.setDepth(quotes.size());
             q.setNestedQuote(nested);
         }
 
@@ -246,18 +254,19 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         String authorHtml = authorSpan.html();
         q.setAuthor(StringUtils.substringBetween(authorHtml, "</b>", " "));
 
-        // (Datum Originalbeitrag: 06.06.2016 12:27 GMT +1)
-        Element dateTextEl = quoteTd.child(0);
-        String dateText = StringUtils.substringBetween(dateTextEl.text(), "Originalbeitrag:", "GMT");
-        if (dateText != null) {
-            LocalDateTime quoteDateTime = parseQuoteDateTime(dateText);
-            q.setPublishDate(quoteDateTime);
-            q.setPublishedAt(FORMATTER.print(quoteDateTime));
+        // (Datum Originalbeitrag: 06.06.2016 12:27 GMT +1)  [optional]
+        if (!quoteTd.children().isEmpty()) {
+            Element dateTextEl = quoteTd.child(0);
+            String dateText = StringUtils.substringBetween(dateTextEl.text(), "Originalbeitrag:", "GMT");
+            if (dateText != null) {
+                LocalDateTime quoteDateTime = parseQuoteDateTime(dateText);
+                q.setPublishDate(quoteDateTime);
+                q.setPublishedAt(APP_FORMATTER.print(quoteDateTime));
+            }
+            dateTextEl.remove();
         }
-        dateTextEl.remove();
 
-        q.setMessage(replaceEmojiImagesWithUnicode(quoteTd.text()));
-
+        q.setMessage(processPlainHtmlText(quoteTd.text()));
         return q;
     }
 

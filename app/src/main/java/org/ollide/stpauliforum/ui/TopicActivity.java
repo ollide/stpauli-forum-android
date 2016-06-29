@@ -110,7 +110,7 @@ public class TopicActivity extends AppCompatActivity implements PostAdapter.OnIt
 
         @Override
         public void onFailure(Call<PostList> call, Throwable t) {
-            Timber.d("onFailure");
+            Timber.w(t, "onFailure");
         }
     };
 

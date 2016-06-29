@@ -47,7 +47,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         viewHolder.author.setText(post.getAuthor());
         viewHolder.date.setText(post.getPublishedAt());
 
-        viewHolder.content.setText(Html.fromHtml(post.getMessage()));
+        // TODO
+//        viewHolder.content.setText(Html.fromHtml(post.getMessage()));
         viewHolder.content.setMovementMethod(LinkMovementMethod.getInstance());
     }
 

@@ -11,13 +11,14 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.ollide.stpauliforum.api.ApiModule;
+import org.ollide.stpauliforum.model.Message;
 import org.ollide.stpauliforum.model.Post;
+import org.ollide.stpauliforum.model.PostMessage;
 import org.ollide.stpauliforum.model.Quote;
 import org.ollide.stpauliforum.model.html.PostList;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import okhttp3.ResponseBody;
@@ -151,32 +152,29 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
         Element postbody = contentEl.getElementsByClass("postbody").get(0);
 
-        List<Node> nodes = postbody.childNodes();
-        List<Object> things = new ArrayList<>();
-        String msg = null;
-        for (Node node : nodes) {
+        List<Message> messages = new ArrayList<>();
+        PostMessage message = null;
+        for (Node node : postbody.childNodesCopy()) {
             if ("table".equals(node.nodeName())) {
-                if (msg != null) {
-                    things.add(msg);
-                    msg = null;
+                if (message != null) {
+                    messages.add(message);
+                    message = null;
                 }
-                things.add("hier wäre ein ZITAT!!");
-                // quote
+
+                messages.add(parseQuotesFromMessage((Element) node));
             } else {
-                String nodeHtml = node.outerHtml();
-                msg = (msg != null) ? (msg + nodeHtml) : nodeHtml;
+                if (message == null) {
+                    message = new PostMessage();
+                }
+                String msg = replaceEmojiImagesWithUnicode(node.outerHtml());
+                message.setMessage(message.getMessage() + msg);
             }
         }
-        if (msg != null) {
-            things.add(msg);
+
+        if (message != null) {
+            messages.add(message);
         }
-        // FIXME / WIP: things is now a list of quotes-author text-quote-text-quotes-text.. etc.
-
-        p.setQuotes(parseQuotesFromMessage(postbody));
-
-        String message = postbody.html();
-        message = replaceEmojiImagesWithUnicode(message);
-        p.setMessage(message);
+        p.setMessages(messages);
 
         return p;
     }
@@ -199,16 +197,11 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         return new String(Character.toChars(unicode));
     }
 
-    protected List<Quote> parseQuotesFromMessage(Element postBody) {
-        Element tables = postBody.getElementsByTag("table").first();
-        if (tables == null) {
-            return Collections.emptyList();
-        }
-
+    protected Quote parseQuotesFromMessage(Element outerQuoteTable) {
         List<Quote> quotes = new ArrayList<>();
         Elements quoteTables = new Elements();
         while (true) {
-            Element table = tables.select("table").last();
+            Element table = outerQuoteTable.select("table").last();
             if (table == null) {
                 break;
             }
@@ -216,6 +209,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
                 table.remove();
                 quoteTables.add(table);
             } else {
+                quoteTables.add(table);
                 break;
             }
         }
@@ -225,14 +219,21 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
                     quoteTable.getElementsByClass("genmed").first()));
         }
 
+        Quote q = null;
+        while (!quotes.isEmpty()) {
+            Quote nested = q;
+            q = quotes.remove(quotes.size() - 1);
+            q.setNestedQuote(nested);
+        }
+
         // remove leading <br>s after quotes
-        Elements brs = postBody.select("br");
+        Elements brs = outerQuoteTable.select("br");
         if (brs.size() >= 2) {
             brs.get(0).remove();
             brs.get(1).remove();
         }
 
-        return quotes;
+        return q;
     }
 
     protected Quote parseQuote(Element quoteTd, Element authorSpan) {

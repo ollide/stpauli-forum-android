@@ -1,8 +1,10 @@
 package org.ollide.stpauliforum.model;
 
+import android.support.annotation.Nullable;
+
 import org.joda.time.LocalDateTime;
 
-public class Quote {
+public class Quote implements QuotedMessage {
 
     private String author;
 
@@ -10,6 +12,8 @@ public class Quote {
     private LocalDateTime publishDate;
 
     private String message;
+
+    private Quote nestedQuote;
 
     public String getAuthor() {
         return author;
@@ -41,5 +45,25 @@ public class Quote {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public void setNestedQuote(Quote nestedQuote) {
+        this.nestedQuote = nestedQuote;
+    }
+
+    @Override
+    @Nullable
+    public Quote getNestedQuote() {
+        return nestedQuote;
+    }
+
+    public int getNestedQuoteCount() {
+        int count = 0;
+        Quote nested = getNestedQuote();
+        while (nested != null) {
+            nested = nested.getNestedQuote();
+            count++;
+        }
+        return count;
     }
 }

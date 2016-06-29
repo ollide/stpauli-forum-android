@@ -2,7 +2,6 @@ package org.ollide.stpauliforum.model;
 
 import org.joda.time.LocalDateTime;
 
-import java.util.Collections;
 import java.util.List;
 
 public class Post {
@@ -13,9 +12,7 @@ public class Post {
     private String publishedAt;
     private LocalDateTime publishDate;
 
-    private String message;
-
-    private List<Quote> quotes = Collections.emptyList();
+    private List<Message> messages;
 
     public String getAuthor() {
         return author;
@@ -49,19 +46,11 @@ public class Post {
         this.publishDate = publishDate;
     }
 
-    public String getMessage() {
-        return message;
+    public List<Message> getMessages() {
+        return messages;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public List<Quote> getQuotes() {
-        return quotes;
-    }
-
-    public void setQuotes(List<Quote> quotes) {
-        this.quotes = quotes;
+    public void setMessages(List<Message> messages) {
+        this.messages = messages;
     }
 }

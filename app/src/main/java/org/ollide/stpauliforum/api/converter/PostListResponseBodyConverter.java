@@ -21,9 +21,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import okhttp3.ResponseBody;
+import timber.log.Timber;
 
 public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
@@ -33,6 +35,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     // eg. 'Mo 16 Jan ......'
     public static final Pattern QUOTE_ILLEGAL_PATTERN = Pattern.compile("[A-Z][a-z] [0-9]+(.*)");
+    public static final Pattern QUERY_PARAM_T_PATTERN = Pattern.compile("t=([^&]+)");
 
     public static final String CLASS_LINK_ICON = "snap_preview";
 
@@ -63,6 +66,8 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     @Override
     public PostList convert(ResponseBody value) throws IOException {
+        PostList postList = new PostList();
+
         String htmlPage = value.string();
         Document document = Jsoup.parse(htmlPage);
 
@@ -71,7 +76,8 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
             return null;
         }
 
-        PostList postList = new PostList();
+        Element pagination = document.select("span.pagination").first();
+        parseIdAndCurrentAndLastPage(postList, pagination);
 
         Element postsTable = forumline.get(0);
         Element tbody = postsTable.child(0);
@@ -120,6 +126,33 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         postList.setPosts(posts);
 
         return postList;
+    }
+
+    protected void parseIdAndCurrentAndLastPage(PostList postList, Element pagination) {
+        String paginationLink = pagination.getElementsByTag("a").first().attr("href");
+        String topicId = "-1";
+        Matcher m = QUERY_PARAM_T_PATTERN.matcher(paginationLink);
+        if (m.find()) {
+            topicId = m.group(1);
+        }
+
+        Element last = pagination.children().last();
+        Element currentPageB;
+        Element lastPage;
+        if (last.tagName().equals("b")) {
+            currentPageB = last;
+            lastPage = last;
+        } else {
+            currentPageB = pagination.getElementsByTag("b").last();
+            lastPage = pagination.child(pagination.children().size() - 2);
+        }
+        try {
+            postList.setTopicId(Integer.parseInt(topicId));
+            postList.setCurrentPage(Integer.parseInt(currentPageB.text()));
+            postList.setLastPage(Integer.parseInt(lastPage.text()));
+        } catch (NumberFormatException e) {
+            Timber.w("couldn't parse topicId or current/last page.");
+        }
     }
 
     protected Post parsePost(Element postRow) {

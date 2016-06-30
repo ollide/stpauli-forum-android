@@ -1,5 +1,6 @@
 package org.ollide.stpauliforum.api.converter;
 
+import org.apache.commons.io.IOUtils;
 import org.joda.time.LocalDateTime;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
@@ -7,6 +8,14 @@ import org.junit.Before;
 import org.junit.Test;
 import org.ollide.stpauliforum.model.Post;
 import org.ollide.stpauliforum.model.Quote;
+import org.ollide.stpauliforum.model.html.PostList;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+
+import okhttp3.MediaType;
+import okhttp3.ResponseBody;
 
 import static org.junit.Assert.*;
 
@@ -66,6 +75,33 @@ public class PostListResponseBodyConverterTest {
         String dateText = "Do 16 Jun 2016, 10:43";
         LocalDateTime localDateTime = converter.parseQuoteDateTime(dateText);
         assertNotNull(localDateTime);
+    }
+
+    @Test
+    public void testConvert() throws IOException {
+        InputStream is = this.getClass().getResourceAsStream("/topics/neues_von_den_alten_p1_first.txt");
+        ResponseBody body = ResponseBody.create(MediaType.parse("text/html"), IOUtils.toString(is, StandardCharsets.UTF_8));
+        PostList postList = converter.convert(body);
+        assertEquals("Neues von den Alten #4", postList.getTopicName());
+        assertEquals(1, postList.getCurrentPage());
+        assertEquals(251, postList.getLastPage());
+        assertEquals(74396, postList.getTopicId());
+
+        is = this.getClass().getResourceAsStream("/topics/neues_von_den_alten_p249.txt");
+        body = ResponseBody.create(MediaType.parse("text/html"), IOUtils.toString(is, StandardCharsets.UTF_8));
+        postList = converter.convert(body);
+        assertEquals("Neues von den Alten #4", postList.getTopicName());
+        assertEquals(249, postList.getCurrentPage());
+        assertEquals(251, postList.getLastPage());
+        assertEquals(74396, postList.getTopicId());
+
+        is = this.getClass().getResourceAsStream("/topics/neues_von_den_alten_p251_last.txt");
+        body = ResponseBody.create(MediaType.parse("text/html"), IOUtils.toString(is, StandardCharsets.UTF_8));
+        postList = converter.convert(body);
+        assertEquals("Neues von den Alten #4", postList.getTopicName());
+        assertEquals(251, postList.getCurrentPage());
+        assertEquals(251, postList.getLastPage());
+        assertEquals(74396, postList.getTopicId());
     }
 
 }

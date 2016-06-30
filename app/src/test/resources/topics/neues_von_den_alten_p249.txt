@@ -1,0 +1,1120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache"><META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<link rel="top" href="index.php" title="" />
+<link rel="search" href="search.php" title="" />
+<link rel="help" href="faq.php" title="" />
+<link rel="author" href="memberlist.php" title="" />
+<link rel="prev" href="viewtopic.php?t=74396&amp;view=previous" title="Vorheriges Thema anzeigen" />
+<link rel="next" href="viewtopic.php?t=74396&amp;view=next" title="Nächstes Thema anzeigen" />
+<link rel="up" href="viewforum.php?f=1" title=" FC St. Pauli – Fußballgöttinnen und Fußballgötter " />
+<link rel="chapter forum" href="viewforum.php?f=1" title=" FC St. Pauli – Fußballgöttinnen und Fußballgötter " />
+<link rel="chapter forum" href="viewforum.php?f=42" title="FC St. Pauli - andere Sportarten" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Sport von A bis Z" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Tippspiel" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="St. Pauli Fanaktionen" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="St. Pauli Fanladen" />
+<link rel="chapter forum" href="viewforum.php?f=66" title="Fanräume" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Fanclub Sprecherrat" />
+<link rel="chapter forum" href="viewforum.php?f=59" title="Sozialromantiker und andere große Protestaktionen" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Fans weltweit" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Flohmarkt" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="FC St. Pauli" />
+<link rel="chapter forum" href="viewforum.php?f=44" title="Fanshop/Merchandising" />
+<link rel="chapter forum" href="viewforum.php?f=78" title="Kartencenter" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Viva con Agua de Sankt Pauli" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="For our visitors from abroad" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="FAQ / Anregungen / Kritik / News" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Klönschnack / Laberecke" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Unpaulitisch?" />
+<link rel="chapter forum" href="viewforum.php?f=75" title="Ratgeber und Lebenshilfe" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="Internethilfe / Computerfragen / Webmasteraustausch" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Testforum" />
+<title>St. Pauli Fanforum :: Thema anzeigen - Neues von den Alten #4</title>
+<link rel="stylesheet" href="templates/forum/forum.css" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+<!--
+function showPopup(target) {
+	var popup = document.sites.selSite;
+    if((popup.options[popup.selectedIndex].value != "0") && (popup.options[popup.selectedIndex].value != "")) {
+	  window.open(popup.options[popup.selectedIndex].value, target);
+	  popup.selectedIndex = 0;
+	}
+}
+function soliWin() {
+        neuWin = window.open('fanladen-soli.php','Solikonzert','width=447,height=617,resizable=no,scrollbars,top=50,left=50');
+        neuWin.focus();
+}
+//-->
+</script>
+ <link href="/favicon.ico" rel="shortcut icon">
+</head>
+<body bgcolor="#E5E5E5" text="#000000" link="#006699" vlink="#006699">
+<a name="top"></a>
+<table BORDER="0" CELLPADDING="3" CELLSPACING="1" WIDTH="99%" align="center" class="headerbackTable">
+<tr>
+   <td ALIGN="left" WIDTH="80%" VALIGN="TOP" class="genmed"><b>Dieses
+    Forum ist kein offizielles Forum des FC St. Pauli, sondern wird von engagierten Fans des Vereins betrieben.</b>
+    Das Posten ist nur für registrierte Benutzer gestattet.<!-- 12 -->
+    <b>Mit Benutzung des Boardes gilt der
+    <a class="mainmenu" href="javascript:neuFenster=window.open('disclaimer.php','NewWindow','toolbar=no,location=no,directories=no,status=no,menuebar=no,scrollbars=yes,resizable=no,copyhistory=no,width=450,height=450');neuFenster.focus();" onMouseover="status='';return true;">Disclaimer</a>
+    als akzeptiert.</b><br />
+    Fragen / Probleme: <a class="mainmenu" href="mailto:info@stpauli-forum.de">Kontakt</a>&nbsp;|&nbsp;
+    <a class="mainmenu" href="javascript:neuFenster=window.open('impressum.php','NewWindow','toolbar=no,location=no,directories=no,status=no,menuebar=no,scrollbars=yes,resizable=no,copyhistory=no,width=400,height=450');neuFenster.focus();" onMouseover="status='';return true;">Impressum</a>&nbsp;|&nbsp;
+    <a class="mainmenu" href="javascript:neuFenster=window.open('disclaimer.php','NewWindow','toolbar=no,location=no,directories=no,status=no,menuebar=no,scrollbars=yes,resizable=no,copyhistory=no,width=450,height=450');neuFenster.focus();" onMouseover="status='';return true;">Disclaimer</a>&nbsp;|&nbsp;
+    <a class="mainmenu" href="faq.php">FAQ</a>&nbsp;|&nbsp;
+    <a href="acronyme.php" class="mainmenu">Abkürzungen</a>&nbsp;|&nbsp;
+    <a href="statistics.php" class="mainmenu">Statistik</a>&nbsp;|&nbsp;
+    &copy; 2001-2011
+    &nbsp;|&nbsp;<a href="rssinfo.php" class="mainmenu"><img src="images/rssinfo.gif" border="0" title="RSS-Feeds" alt="RSS-Feeds" /></a></td>
+</tr>
+</table>
+<table border="0" WIDTH="98%" CELLPADDING="0" cellspacing="0" ALIGN="CENTER">
+<tr>
+  <td class="bodyline" ALIGN="left" WIDTH="50%" ROWSPAN="2" VALIGN="top">
+    <table border="0" width="100%" align="center" cellpadding="2" cellspacing="2">
+    <tr>
+     <td class="bodyline" align="center" valign="top"><a href="index.php" onmouseover="status='Index';return true;" onmouseout="status='';return true;"><img src="images/logo3.gif" border="0" alt="St. Pauli Fanforum Index" vspace="1" /></a></td>
+    </tr>
+    <tr>
+      <td align="center" class="headerback" valign="top">
+		[<a class="mainmenulk" href="index.php">Home</a>]&nbsp;&nbsp;&nbsp;
+  	         		[<a class="mainmenulk" href="profile.php?mode=editprofile">Profil</a>]&nbsp;&nbsp;&nbsp;
+	   		[<a class="mainmenulk" href="search.php">Suchen</a>]&nbsp;&nbsp;&nbsp;
+		[<a class="mainmenulk" href="tippspiel.php">Liga-Tipp</a>]&nbsp;&nbsp;&nbsp;
+		[<a class="mainmenulk" href="recent.php">Neue Beiträge</a>]
+      </td>
+    </tr>
+    <tr>
+      <td align="center" class="headerback" valign="top" nowrap="nowrap">
+	   						                [<a class="mainmenulk" href="profile.php?mode=privmsg">Du hast keine neuen Nachrichten</a>]&nbsp;&nbsp;&nbsp;
+                [<a class="mainmenulk" href="login.php?logout=true&amp;sid=9d3c9c804b41923dc82311b72256a1b6">Logout [ olli09 ]</a>]
+      </td>
+    </tr>
+	      <tr>
+      <td align="center" class="headerback" valign="middle" style="padding-top:2px;"><div class="gensmall">
+	      Dein letzter Besuch war am: 29.06.2016 18:15<br />
+      <form method="post" action="/viewtopic.php?t=74396&postdays=0&postorder=asc&start=3720" name="online_select" style="margin:0;">
+	      Online anzeigen: <input class="smallradio" type="radio" name="onlinefor" value="1" onClick="document.online_select.submit()" /> Ja <input type="radio" class="smallradio" name="onlinefor" value="0" checked onClick="document.online_select.submit()" /> Nein <input type="radio" class="smallradio" name="onlinefor" value="2" onClick="document.online_select.submit()" /> Nur Buddies      </form></div></td>
+    </tr>
+	  </table>
+  </td>
+  <td ALIGN="left" WIDTH="20%" ROWSPAN="2" VALIGN="top">&nbsp;</td>
+  <td align="right" width="30%" valign="top">
+    <table border="0" width="70%" align="right" cellpadding="3" cellspacing="0">
+    <tr>
+      <td align="left" class="gensmall" valign="middle">Unterstützt den Fanladen:<br />
+      <a href="http://www.stpauli-fanladen.de" target="_blank" onMouseover="status='';return true;"><img src="images/fanladen-info.gif" border="0" alt="Fanladen St. Pauli" title="" /></a>
+	  </td>
+      <td align="right" class="gensmall" valign="middle">Anzeige:<br />
+      <a href="/afm.php" target="_blank" onMouseover="status='AFM';return true;" onMouseout="status='';return true;"><img src="images/afm_werbung.jpg" border="0" alt="AFM-Info" title="" /></a>
+	  </td>
+    </tr>
+    <tr>
+     <td class="gensmall" style="text-align: leftvertical-align:midle; padding-top:8px;">stpauli-forum.de wird unterstützt von<br/><a href="http://www.q-mex.net" onmouseover="status='Q-MEX Networks';return true;" onmouseout="status='';return true;"><img src="images/logo-qmex-3.jpg" border="0" alt="Q-MEX Networks" vspace="1" /></a></td>
+     <td align="right" class="gensmall" valign="bottom">Anzeige:<br /><a href="http://www.casarebelde.com" target="_blank" onMouseover="status='';return true;"><img src="images/casarebelde.jpg" border="0" alt="Visit Casa Rebelde" title="" width="157" height=75"/></td>
+    </tr>
+        </table>
+  </td>
+</tr>
+</table>
+
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function ref(object)
+{
+	if (document.getElementById)
+	{
+		return document.getElementById(object);
+	}
+	else if (document.all)
+	{
+		return eval('document.all.' + object);
+	}
+	else
+	{
+		return false;
+	}
+}
+
+function toggle(pobject)
+{
+	object = ref('post_' + pobject);
+
+	if( !object.style )
+	{
+		return false;
+	}
+
+	if( object.style.display == 'none' )
+	{
+		object.style.display = '';
+	}
+	else
+	{
+		object.style.display = 'none';
+	}
+}
+//-->
+</script>
+
+<br />
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr>
+	<td align="left" valign="bottom" width="100%" colspan="2"><span class="nav"><a href="index.php" class="nav">St. Pauli Fanforum Index</a> -> <a class="nav" href="viewforum.php?f=1"> FC St. Pauli – Fußballgöttinnen und Fußballgötter </a> ->&nbsp;Neues von den Alten #4</span>
+    </td>
+    </tr>
+  <tr>
+	<td align="left" valign="bottom" width="100%" colspan="2"><a href="viewonline.php" class="nav">Wer ist online?</a> <span class="gensmall"><a class="genmed" href="profile.php?mode=viewprofile&u=7644">Blues81</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=4595">Borstii</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=7183">Damato</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=5769">Der echte Superpauli</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=15165">Drillerfan</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=7307">Ein Hamburger</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=4207">mike_m</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=14761"><i>olli09</i></a>, <a class="genmed" href="profile.php?mode=viewprofile&u=243">robertpires</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=4570">Thomy71</a> + 14 weitere Benutzer + 44 G&auml;ste</span>
+	</td>
+  </tr>
+  <tr>
+        <td align="left" valign="middle" class="nav"><span class="pagination">Gehe zu Seite <input type="text" size="4" value="249" onKeyPress="var keyCode = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode; if ( keyCode == 13 ) { var page_no = parseInt(this.value, 10); if ( !isNaN(page_no) && page_no <= 251 && page_no > 0) { var start = String((page_no - 1)*15); window.location.href = 'viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start='+start+''; return false;} else { this.value = 249; return false;} }" />  <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3705">Zurück</a>&nbsp;&nbsp;<a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=0">1</a>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=15">2</a>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=30">3</a> ... <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3705">248</a>, <b>249</b>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3735">250</a>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3750">251</a>&nbsp;&nbsp;<a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3735">Weiter</a></span></td>
+	<td align="right" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=newtopic&amp;f=1"><img src="templates/forum/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=reply&amp;t=74396"><img src="templates/forum/images/lang_german/reply.gif" border="0" alt="Neue Antwort erstellen" align="middle" /></a></span></td>
+  </tr>
+</table>
+<table class="forumline" width="100%" cellspacing="1" cellpadding="4" border="0">
+	<tr align="right">
+                <td align="left" class="catHead"><span class="nav"><a href="printview.php?t=74396&amp;start=3720" title="Druckversion" class="mainmenulk" target="_blank"><img src="templates/forum/images/lang_german/print.gif" alt="Druckversion" title="Druckversion" border="0" /></a></span></td>
+		<td class="catHead"><span class="nav"><a href="viewtopic.php?t=74396&amp;view=previous" class="nav">Vorheriges Thema anzeigen</a>&nbsp;&nbsp;<img src="images/div.gif">&nbsp;&nbsp;<a href="viewtopic.php?t=74396&amp;view=next" class="nav">Nächstes Thema anzeigen</a> &nbsp;
+		&nbsp;<img src="images/div.gif">&nbsp;&nbsp;<a href="#pagedown" class="nav">Zum Seitenende</a> &nbsp;</span></td>
+	</tr>
+		<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap" align="left">Autor</th>
+		<th class="thRight" nowrap="nowrap" align="left">Neues von den Alten #4</th>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4187765"></a><span class="name"><span class="gen">halbfan</span></span></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="1"></a><a href="viewtopic.php?p=4187765#4187765"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 22.06.2016 11:13&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187765"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#"></a>&nbsp;&nbsp;<a href="#2">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Achim hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 11:08 GMT +1)</span>
+<br />
+Ich habe noch nichts von Stani bei der EM gesehen,
+<br />
+kommt das denn glaubhaft rüber?</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Meine persönliche Einschätzung ist, dass er es dort ganz gut macht.
+<br />
+Er analysiert nach den Spielen immer zwei Spielszenen, meist eine aus Halbzeit 1 und eine aus Halbzeit 2, und versucht zu erklären, warum das Spiel so oder so gelaufen ist. Ich finde, das gelingt ihm auch ganz gut: Immer mit einem Schalk in den Augen, sehr klar in seinen Aussagen. Das Zusammenspiel mit Kahn läuft auch gut, der manchmal anderer Meinung ist und das Ganze deswegen nicht zu statisch wird.
+<br />
+
+<br />
+Vom Setting her wirkt es, als wäre er jetzt der Lehrer, der an der Tafel steht, und den Schülern, die da hinten auf ihren Plätzen sitzen, die Welt erklärt  <img src="images/smiles/lach.gif" alt="lach.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=13804"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=13804"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187765"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4187770"></a><span class="name"><span class="gen">Thomy71</span></span><div align="left" class="gensmall">Mitglied seit:&nbsp;08.06.2005</div><div align="left" class="gensmall">Beiträge:&nbsp;12597</div><div align="left" class="gensmall">Wohnort:&nbsp;Bielefeld</div></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="2"></a><a href="viewtopic.php?p=4187770#4187770"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 22.06.2016 11:22&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187770"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#1">Vorheriger</a>&nbsp;&nbsp;<a href="#3">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>halbfan hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 10:52 GMT +1)</span>
+<br />
+
+<br />
+
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Freibeuter hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 10:47 GMT +1)</span>
+<br />
+
+<br />
+
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Thomy71 hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 08:42 GMT +1)</span>
+<br />
+
+<br />
+Und wer würde dann beim ZDF weiter analysieren? Oder würde Nünbergs Vorbereitung kurzfristig nach Frankreich verlegt werden?  <img src="images/smiles/eek.gif" alt="eek.gif" border="0" /></td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Das frag ich mich auch. Stani ist nun mal bis etwa 10.7 in Frankreich an des ZDF gebunden. Die Nürnberger wollen doch wohl nicht so lange warten ?
+<br />
+
+<br />
+Bei sowas wird Stani nicht zusagen, das glaub ich einfach nicht.</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Na, wenn sie extra schon hinfliegen, wird das Interesse an ihm schon groß sein. Da wird man sich doch sicher Gedanken gemacht haben, wie eine Vorbereitung ohne ihn läuft. Dass man ihn da jetzt vom ZDF nicht &quot;rauskaufen&quot; kann, wird ihnen auch klar sein.</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Man könnte ja das bewährte Modell &quot;Truller trainiert, Stani kontrolliert aus der Ferne und übernimmt dann später wieder&quot; reaktivieren <img src="images/smiles/wink.gif" alt="wink.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=4570"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=4570"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187770"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4187774"></a><span class="name"><span class="gen">Doc No</span></span></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="3"></a><a href="viewtopic.php?p=4187774#4187774"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 22.06.2016 11:28&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187774"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#2">Vorheriger</a>&nbsp;&nbsp;<a href="#4">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">Ich vermute übrigens mal,
+<br />
+
+<br />
+dass Stani für so einen Fall 'ne Ausstiegsklausel hat. <img src="images/smiles/smile.gif" alt="smile.gif" border="0" />
+<br />
+
+<br />
+Ernsthaft: glaube ich nie und nimmer, dass das ZDF ihm das verwehren würde, so wichtig ist Stani da nun auch wieder nicht ...</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"><br /><br />_________________<br /><span style="color: red"><span style="font-size: 18px; line-height: normal">FCSP – #AlwaysLethal since 2016</span></span><span class="gensmall"><br />_________________<br />Beitrag zuletzt bearbeitet am 22.06.2016 11:28, insgesamt ein Mal bearbeitet</span></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=1330"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=1330"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187774"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4187789"></a><span class="name"><span class="gen">Tommy</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div class="genmed"><b><img src="images/star2.gif" alt="Förderer" title="Förderer" border="0" /><br />Förderer</b></div><div align="left"><img src="http://i70.photobucket.com/albums/i112/tommy-molotow/maul_ava_zps4cf4fbad.jpg" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Wohnort:&nbsp;Gegengerade</div></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="4"></a><a href="viewtopic.php?p=4187789#4187789"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 22.06.2016 12:01&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187789"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#3">Vorheriger</a>&nbsp;&nbsp;<a href="#5">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">der macht seinen zdf-job in meinen augen extrem gut. hätte nie gedacht, dass stani mit dem elektronischen schnickschnack da so gut zurecht kommt. na ja, edding und whiteboard für die analyse hätte da wohl auch etwas eigenartig ausgeschaut.  <img src="images/smiles/icon_smoke.gif" alt="icon_smoke.gif" border="0" />
+<br />
+ich kann mir nicht vorstellen, dass er noch einen trainerjob annimmt, der weiter als 2 autostunden von hamburg entfernt ist...</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"><br /><br />_________________<br /><div align="center">
+<br />
+<img src="http://i70.photobucket.com/albums/i112/tommy-molotow/656c80b1-21fc-431f-a27e-31f8ec78a45b_zpsllplkwhx.jpg" border="0" />
+<br />
+
+<br />
+Demokratie ist, wenn zwei Wölfe und ein Lamm abstimmen, was es zum Abendessen geben soll. (Marvin Simkin)
+<br />
+</div></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=709"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=709"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="http://www.facebook.com/tommy.molotow" target="_blank"><img src="templates/forum/images/lang_german/icon_www.gif" alt="Website dieses Benutzers besuchen" title="http://www.facebook.com/tommy.molotow" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4187789"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4188074"></a><span class="name"><span class="gen">Mein Name sei</span></span></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="5"></a><a href="viewtopic.php?p=4188074#4188074"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 22.06.2016 19:33&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188074"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#4">Vorheriger</a>&nbsp;&nbsp;<a href="#6">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Freibeuter hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 10:47 GMT +1)</span>
+<br />
+
+<br />
+
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Thomy71 hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 08:42 GMT +1)</span>
+<br />
+
+<br />
+Und wer würde dann beim ZDF weiter analysieren? Oder würde Nünbergs Vorbereitung kurzfristig nach Frankreich verlegt werden?  <img src="images/smiles/eek.gif" alt="eek.gif" border="0" /></td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Das frag ich mich auch. Stani ist nun mal bis etwa 10.7 in Frankreich an des ZDF gebunden. Die Nürnberger wollen doch wohl nicht so lange warten ?
+<br />
+
+<br />
+Bei sowas wird Stani nicht zusagen, das glaub ich einfach nicht.</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Da kann man ihn doch zuschalten. Also nach Mainz/Paris.</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"><br /><br />_________________<br />Fluctuat nec mergitur</td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=6479"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=6479"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188074"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4188080"></a><span class="name"><span class="gen">Kottan</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="http://i.imgur.com/ILKYCa7.gif" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Wohnort:&nbsp;Homburg</div></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="6"></a><a href="viewtopic.php?p=4188080#4188080"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 22.06.2016 19:42&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188080"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#5">Vorheriger</a>&nbsp;&nbsp;<a href="#7">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">Zambrano ist wohl in Valencia im Gespräch. Angeblich haben die Spanier 6,5 Millionen geboten, Frankfurt fordere aber 8 Millionen.
+<br />
+Wäre für den Verein St. Pauli auch nicht blöd, weil ein weiteres Beispiel, dass man auch über den FC St. Pauli eine große Karriere starten kann</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=12947"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=12947"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188080"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4188340"></a><span class="name"><span class="gen">Milhouse</span></span></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="7"></a><a href="viewtopic.php?p=4188340#4188340"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 08:25&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188340"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#6">Vorheriger</a>&nbsp;&nbsp;<a href="#8">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">Naja, wir waren ja eher ne Durchgangsstation (2 Jahre...) und das Musterbeispiel von Spielerberaterwirrwarr.
+<br />
+Auch wenn ich ihn sehr gerne mag und gerne wieder hätte  <img src="images/smiles/smile.gif" alt="smile.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=6449"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=6449"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188340"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4188348"></a><span class="name"><span class="gen">MikeHH</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="http://fs5.directupload.net/images/160111/t5chswjs.jpg" alt="Avatar" border="0" height="60" width="60" /></div><br /></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="8"></a><a href="viewtopic.php?p=4188348#4188348"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 08:57&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188348"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#7">Vorheriger</a>&nbsp;&nbsp;<a href="#9">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">Und ein Musterbeispiel für Super-Sahne-Vertragsdetails!
+<br />
+
+<br />
+Wenn er jetzt für gutes Geld wechselt, verdienen wir immer noch mit!</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=11620"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=11620"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188348"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4188351"></a><span class="name"><span class="gen">Kottan</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="http://i.imgur.com/ILKYCa7.gif" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Wohnort:&nbsp;Homburg</div></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="9"></a><a href="viewtopic.php?p=4188351#4188351"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 09:16&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188351"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#8">Vorheriger</a>&nbsp;&nbsp;<a href="#10">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Milhouse hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 08:25 GMT +1)</span>
+<br />
+
+<br />
+Naja, wir waren ja eher ne Durchgangsstation (2 Jahre...) und das Musterbeispiel von Spielerberaterwirrwarr.
+<br />
+Auch wenn ich ihn sehr gerne mag und gerne wieder hätte  <img src="images/smiles/smile.gif" alt="smile.gif" border="0" /></td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Man kann es auch rein sportlich sehen (Beraterwirrwarr mal ausgeklammert), dass er bei Schalke den Durchbruch nicht geschafft hat, ans Millerntor wechselte, dort die Chance bekam zu spielen, den Durchbruch im deutschen Profifußball schaffte und als ein höherklassiges Angebot kam, ließ man ihn ziehen.</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=12947"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=12947"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188351"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4188417"></a><span class="name"><span class="gen">derEiskalte</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="https://lh5.googleusercontent.com/-gII8Pav_soQ/AAAAAAAAAAI/AAAAAAAAADI/7KJpjWL2wUA/photo.jpg?sz=200" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Mitglied seit:&nbsp;06.09.2010</div><div align="left" class="gensmall">Beiträge:&nbsp;2711</div></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="10"></a><a href="viewtopic.php?p=4188417#4188417"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 11:10&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188417"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#9">Vorheriger</a>&nbsp;&nbsp;<a href="#11">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>MikeHH hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 08:57 GMT +1)</span>....Wenn er jetzt für gutes Geld wechselt, verdienen wir immer noch mit!</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Sagst Du, der den Vertrag abgeschlossen hat oder woher kommt das Wissen?</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"><br /><br />_________________<br /><span style="font-size: 11px; line-height: normal">\&quot;Rassismus ist das Übel unserer Welt. Nazi sein bedeutet, dass du verloren hast, bevor du anfängst. Du kannst nicht gewinnen. Du bist nur dumm.\&quot;|  Lemmy Kilmister </span></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=10908"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=10908"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188417"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4188419"></a><span class="name"><span class="gen">MikeHH</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="http://fs5.directupload.net/images/160111/t5chswjs.jpg" alt="Avatar" border="0" height="60" width="60" /></div><br /></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="11"></a><a href="viewtopic.php?p=4188419#4188419"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 11:13&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188419"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#10">Vorheriger</a>&nbsp;&nbsp;<a href="#12">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>derEiskalte hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 11:10 GMT +1)</span>
+<br />
+
+<br />
+
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>MikeHH hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 08:57 GMT +1)</span>....Wenn er jetzt für gutes Geld wechselt, verdienen wir immer noch mit!</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Sagst Du, der den Vertrag abgeschlossen hat oder woher kommt das Wissen?</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Ich bin zu faul das zu suchen, aber es gab diese Aussagen nach dem Wechsel von Zambrano zu Frankfurt und es gab die Aussage von Bruchhagen(?) im Winter, als erste Wechselgerüchte auftauchten, dass ein Wechsel von Zambrano eine schwierige Sache sei, da St. Pauli da auch noch ein Wörtchen mitzureden hätte, weil St. Pauli an der Ablöse beteiligt sei.</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=11620"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=11620"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188419"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4188423"></a><span class="name"><span class="gen">Thomy71</span></span><div align="left" class="gensmall">Mitglied seit:&nbsp;08.06.2005</div><div align="left" class="gensmall">Beiträge:&nbsp;12597</div><div align="left" class="gensmall">Wohnort:&nbsp;Bielefeld</div></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="12"></a><a href="viewtopic.php?p=4188423#4188423"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 11:22&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188423"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#11">Vorheriger</a>&nbsp;&nbsp;<a href="#13">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>MikeHH hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 11:13 GMT +1)</span>
+<br />
+
+<br />
+Ich bin zu faul das zu suchen, aber es gab diese Aussagen nach dem Wechsel von Zambrano zu Frankfurt und es gab die Aussage von Bruchhagen(?) im Winter, als erste Wechselgerüchte auftauchten, dass ein Wechsel von Zambrano eine schwierige Sache sei, da St. Pauli da auch noch ein Wörtchen mitzureden hätte, weil St. Pauli an der Ablöse beteiligt sei.</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Wenn das alles so stimmt, was um Zambranos Verträge mit uns geflüstert wird, wird das auf ewig ein Musterbeispiel an Managerleistung bleiben; das wird noch im 200-Jahr-Buch stehen. Wahrscheinlich kriegen wir auch noch für jeden Länderspieleinsatz nen Tausi und sind bei den Einnahmen für sein dereinstiges Abschiedsspiel beteiligt <img src="images/smiles/grin.gif" alt="grin.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=4570"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=4570"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188423"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4188425"></a><span class="name"><span class="gen">Kottan</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="http://i.imgur.com/ILKYCa7.gif" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Wohnort:&nbsp;Homburg</div></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="13"></a><a href="viewtopic.php?p=4188425#4188425"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 11:25&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188425"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#12">Vorheriger</a>&nbsp;&nbsp;<a href="#14">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Thomy71 hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 11:22 GMT +1)</span>
+<br />
+
+<br />
+
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>MikeHH hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 23.06.2016 11:13 GMT +1)</span>
+<br />
+
+<br />
+Ich bin zu faul das zu suchen, aber es gab diese Aussagen nach dem Wechsel von Zambrano zu Frankfurt und es gab die Aussage von Bruchhagen(?) im Winter, als erste Wechselgerüchte auftauchten, dass ein Wechsel von Zambrano eine schwierige Sache sei, da St. Pauli da auch noch ein Wörtchen mitzureden hätte, weil St. Pauli an der Ablöse beteiligt sei.</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Wenn das alles so stimmt, was um Zambranos Verträge mit uns geflüstert wird, wird das auf ewig ein Musterbeispiel an Managerleistung bleiben; das wird noch im 200-Jahr-Buch stehen. Wahrscheinlich kriegen wir auch noch für jeden Länderspieleinsatz nen Tausi und sind bei den Einnahmen für sein dereinstiges Abschiedsspiel beteiligt <img src="images/smiles/grin.gif" alt="grin.gif" border="0" /></td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+Am Ende verdient St. Pauli sogar noch an den Transfers seiner Kindeskinder... <img src="images/smiles/duckwech.gif" alt="duckwech.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=12947"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=12947"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188425"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4188432"></a><span class="name"><span class="gen">KIEZTIGER</span></span><div class="genmed"><b><img src="images/star5.gif" alt="Posting - Schinder" title="Posting - Schinder" border="0" /><br />Posting - Schinder</b></div><div align="left"><img src="http://www.gif-paradies.de/gifs/tiere/katzen/katze_0164.gif" alt="Avatar" border="0" height="60" width="60" /></div><br /></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="14"></a><a href="viewtopic.php?p=4188432#4188432"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 11:45&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188432"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#13">Vorheriger</a>&nbsp;&nbsp;<a href="#15">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">
+<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center">
+<tr>
+	  <td><span class="genmed"><b>Zitat - </b>Tommy hat folgendes geschrieben:</span></td>
+	</tr>
+	<tr>
+	  <td class="quote"><span style="font-size: 9px; line-height: normal">(Datum Originalbeitrag: 22.06.2016 12:01 GMT +1)</span>
+<br />
+
+<br />
+der macht seinen zdf-job in meinen augen extrem gut. hätte nie gedacht, dass stani mit dem elektronischen schnickschnack da so gut zurecht kommt. na ja, edding und whiteboard für die analyse hätte da wohl auch etwas eigenartig ausgeschaut.  <img src="images/smiles/icon_smoke.gif" alt="icon_smoke.gif" border="0" />
+<br />
+ich kann mir nicht vorstellen, dass er noch einen trainerjob annimmt, der weiter als 2 autostunden von hamburg entfernt ist...</td>
+	</tr>
+</table>
+
+<br />
+
+<br />
+er hat in interviews früher mal nürnberg als seinen lieblingsverein genannt...
+<br />
+allerdings war er dort vor einigen jahren auch schon im gespräch und es wurde nicht daraus...</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=4519"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=4519"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188432"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4188455"></a><span class="name"><span class="gen">onkelfritz</span></span><div class="genmed"><b><img src="images/star3.gif" alt="Alter Stamm" title="Alter Stamm" border="0" /><br />Alter Stamm</b></div><div align="left"><img src="http://C:\Users\MarcHorwarth\Documents\eigene Dateien Marc\priv\Neuer Ordner" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Mitglied seit:&nbsp;04.05.2011</div><div align="left" class="gensmall">Beiträge:&nbsp;397</div><div align="left" class="gensmall">Wohnort:&nbsp;Reutlingen</div></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="15"></a><a href="viewtopic.php?p=4188455#4188455"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 23.06.2016 12:31&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188455"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#14">Vorheriger</a>&nbsp;&nbsp;<a href="#"></a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">Finde Stanis Analysen auch recht gut.
+<br />
+
+<br />
+Wobei seine persönliche Vorrunden-Elf gestern von Kahn in der Luft zerrissen wurde. Nach dem Motto: Wie kann man nur einen Chiellini einem Ramos vorziehen?  <img src="images/smiles/lach.gif" alt="lach.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"><span class="gensmall"><br />_________________<br />Beitrag zuletzt bearbeitet am 23.06.2016 13:52, insgesamt ein Mal bearbeitet</span></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=11835"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=11835"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4188455"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center">
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=74396&amp;start=3720">
+				<td align="center"><span class="gensmall">Beiträge vom vorherigen Thema anzeigen: <select name="postdays"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="364">1 Jahr</option></select>&nbsp;<select name="postorder"><option value="asc" selected="selected">Die ältesten zuerst</option><option value="desc">Die neusten zuerst</option></select>&nbsp;<input type="submit" value="Go" class="liteoption" name="submit" /></span></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr>
+	<td align="left" valign="middle" nowrap="nowrap"><br />
+	<span class="nav"><a href="posting.php?mode=newtopic&amp;f=1"><img src="templates/forum/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=reply&amp;t=74396"><img src="templates/forum/images/lang_german/reply.gif" border="0" alt="Neue Antwort erstellen" align="middle" /></a></span><br />
+	<br />
+	<span class="nav"><a href="index.php" class="nav">St. Pauli Fanforum Index</a>
+	  -> <a href="viewforum.php?f=1" class="nav"> FC St. Pauli – Fußballgöttinnen und Fußballgötter </a> ->&nbsp;Neues von den Alten #4</span>
+	</td>
+	<td align="right" valign="middle"><span class="nav">Seite <b>249</b> von <b>251</b></span><br /><br /><span class="pagination">Gehe zu Seite <input type="text" size="4" value="249" onKeyPress="var keyCode = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode; if ( keyCode == 13 ) { var page_no = parseInt(this.value, 10); if ( !isNaN(page_no) && page_no <= 251 && page_no > 0) { var start = String((page_no - 1)*15); window.location.href = 'viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start='+start+''; return false;} else { this.value = 249; return false;} }" />  <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3705">Zurück</a>&nbsp;&nbsp;<a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=0">1</a>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=15">2</a>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=30">3</a> ... <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3705">248</a>, <b>249</b>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3735">250</a>, <a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3750">251</a>&nbsp;&nbsp;<a class="pagination" href="viewtopic.php?t=74396&amp;postdays=0&amp;postorder=asc&amp;start=3735">Weiter</a></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr>
+	<td width="40%" valign="middle" nowrap="nowrap" align="left"><span class="gensmall"><a class="pagination" href="viewtopic.php?t=74396&watch=topic&amp;start=3720&amp;sid=9d3c9c804b41923dc82311b72256a1b6">Bei Antworten zu diesem Thema benachrichtigen</a></span></td>
+	<td valign="middle" nowrap="nowrap" align="center"></td>
+	<td align="right" valign="middle" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Forum auswählen</option><option value="-1"> </option><option value="-1">Rund um den Sport</option><option value="-1">----------------</option><option value="1"selected="selected"> FC St. Pauli – Fußballgöttinnen und Fußballgötter </option><option value="42">FC St. Pauli - andere Sportarten</option><option value="34">Sport von A bis Z</option><option value="12">Tippspiel</option><option value="-1"> </option><option value="-1">Rund um die Fanszene</option><option value="-1">----------------</option><option value="4">St. Pauli Fanaktionen</option><option value="2">St. Pauli Fanladen</option><option value="66">Fanräume</option><option value="39">Fanclub Sprecherrat</option><option value="59">Sozialromantiker und andere große Protestaktionen</option><option value="43">Fans weltweit</option><option value="13">Flohmarkt</option><option value="-1"> </option><option value="-1">Offizielles</option><option value="-1">----------------</option><option value="3">FC St. Pauli</option><option value="44">Fanshop/Merchandising</option><option value="78">Kartencenter</option><option value="40">Viva con Agua de Sankt Pauli</option><option value="-1"> </option><option value="-1">English Forum</option><option value="-1">----------------</option><option value="5">For our visitors from abroad</option><option value="-1"> </option><option value="-1">Sonstiges</option><option value="-1">----------------</option><option value="7">FAQ / Anregungen / Kritik / News</option><option value="6">Klönschnack / Laberecke</option><option value="11">Unpaulitisch?</option><option value="75">Ratgeber und Lebenshilfe</option><option value="8">Internethilfe / Computerfragen / Webmasteraustausch</option><option value="10">Testforum</option></select>&nbsp;<input type="submit" value="Go" class="liteoption" /></span></td>
+	</tr>
+</table></form>
+
+</td>
+  </tr>
+</table>
+
+<div align="center"><span class="adminlink"><br /></span><br />
+<span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_blank" class="copyright">phpBB</a>
+&copy; phpBB Group<br />
+Modifiziert und  von
+snief (stpauli-forum.de)<a name="pagedown">&nbsp;.</a><br />
+<br /></span>
+</div>
+<!--<script defer="defer" id="snap_preview_anywhere" type="text/javascript" src="http://spa.snap.com/snap_preview_anywhere.js?ap=0&amp;key=db28f39041d2dd56c1d475b43ceeafd9&amp;sb=0&amp;domain=www.stpauli-forum.de"></script>-->
+</body>
+</html>
+

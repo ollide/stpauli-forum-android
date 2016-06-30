@@ -62,5 +62,6 @@ dependencies {
 
     compile 'net.danlew:android.joda:2.9.3.1'
     testCompile 'joda-time:joda-time:2.9.4'
+    testCompile 'commons-io:commons-io:2.5'
 
 }

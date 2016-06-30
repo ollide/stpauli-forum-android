@@ -10,6 +10,7 @@ public class PostList {
     private String topicName;
 
     private int currentPage;
+    private int lastPage;
 
     private List<Post> posts;
 
@@ -35,6 +36,14 @@ public class PostList {
 
     public void setCurrentPage(int currentPage) {
         this.currentPage = currentPage;
+    }
+
+    public int getLastPage() {
+        return lastPage;
+    }
+
+    public void setLastPage(int lastPage) {
+        this.lastPage = lastPage;
     }
 
     public List<Post> getPosts() {

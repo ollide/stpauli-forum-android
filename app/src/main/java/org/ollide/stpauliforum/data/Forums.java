@@ -9,7 +9,7 @@ import java.util.List;
 
 public final class Forums {
 
-    public static final Forum FCSP_FUSSBALLGOETTER = new Forum(1, "FC St. Pauli - Fußballgötter", "Hier kann alles zu unserer Fussballabteilung, dem Herzstück unseres Vereins, rein", Collections.<Topic>emptyList());
+    public static final Forum FCSP_FUSSBALLGOETTER = new Forum(1, "FC St. Pauli – Fußballgöttinnen und Fußballgötter", "Hier kann alles zu den Fußballabteilungen unseres Vereins rein", Collections.<Topic>emptyList());
     public static final Forum FCSP_ANDERE_SPORTARTEN = new Forum(42, "FC St. Pauli - andere Sportarten", "Alle weiteren Sportarten des FC St. Pauli", Collections.<Topic>emptyList());
     public static final Forum SPORT_A_Z = new Forum(34, "Sport von A bis Z", "Alles Sportliche, was nicht mit dem FC zu tun hat...", Collections.<Topic>emptyList());
     public static final Forum TIPPSPIEL = new Forum(12, "Tippspiel", "Teilnahme nur für registrierte User", Collections.<Topic>emptyList());

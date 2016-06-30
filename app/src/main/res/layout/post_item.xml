@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?android:attr/selectableItemBackground"
-    android:padding="10dp">
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/authorAvatarIv"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginRight="10dp" />
-
-    <TextView
-        android:id="@+id/authorNameTv"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/authorAvatarIv"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@android:color/black"
-        tools:text="olli09" />
+        android:background="@android:color/white"
+        android:elevation="4dp">
 
-    <TextView
-        android:id="@+id/publishDateTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/authorNameTv"
-        android:layout_marginTop="8dp"
-        android:layout_toRightOf="@+id/authorAvatarIv"
-        tools:text="03.03.2015 12:35" />
+        <ImageView
+            android:id="@+id/authorAvatarIv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/authorNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/authorAvatarIv"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="olli09" />
+
+        <TextView
+            android:id="@+id/publishDateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/authorNameTv"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/authorAvatarIv"
+            tools:text="03.03.2015 12:35" />
+
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/postContentLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/authorAvatarIv"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

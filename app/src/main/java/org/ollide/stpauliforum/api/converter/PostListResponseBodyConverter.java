@@ -19,6 +19,7 @@ import org.ollide.stpauliforum.model.html.PostList;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -114,6 +115,8 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
             mainTrs.remove(0);
             mainTrs.remove(0);
         }
+        // put latest posts first
+        Collections.reverse(posts);
         postList.setPosts(posts);
 
         return postList;

@@ -98,7 +98,10 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         // remove intro and outro rows
         if (mainTrs.size() > 3) {
             mainTrs.remove(0);
-            mainTrs.remove(0);
+
+            Element titleRow = mainTrs.remove(0);
+            postList.setTopicName(titleRow.children().last().text());
+
             mainTrs.remove(mainTrs.size() - 1);
         }
 

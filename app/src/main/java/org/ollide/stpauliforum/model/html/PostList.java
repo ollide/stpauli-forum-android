@@ -7,7 +7,7 @@ import java.util.List;
 public class PostList {
 
     private int topicId;
-    private int topicName;
+    private String topicName;
 
     private int currentPage;
 
@@ -21,11 +21,11 @@ public class PostList {
         this.topicId = topicId;
     }
 
-    public int getTopicName() {
+    public String getTopicName() {
         return topicName;
     }
 
-    public void setTopicName(int topicName) {
+    public void setTopicName(String topicName) {
         this.topicName = topicName;
     }
 

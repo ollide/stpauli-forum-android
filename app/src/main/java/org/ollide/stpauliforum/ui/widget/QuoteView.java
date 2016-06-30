@@ -29,7 +29,6 @@ public class QuoteView extends LinearLayout implements View.OnClickListener {
         super(context);
         setOrientation(LinearLayout.VERTICAL);
         setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        setBackgroundResource(R.drawable.view_quote_background);
         setOnClickListener(this);
     }
 
@@ -52,6 +51,9 @@ public class QuoteView extends LinearLayout implements View.OnClickListener {
 
     public void setQuote(Quote quote) {
         this.quote = quote;
+
+        // alternate background color
+        setBackgroundResource((quote.getDepth() % 2 == 0) ? R.drawable.view_quote_background_red : R.drawable.view_quote_background_brown);
 
         if (quote.getDepth() > 0) {
             int margin = (int) (Utils.convertDpToPixel(12, getContext()));

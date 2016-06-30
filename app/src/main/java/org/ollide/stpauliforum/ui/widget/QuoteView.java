@@ -7,7 +7,9 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewParent;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -18,8 +20,9 @@ import org.ollide.stpauliforum.util.Utils;
 /**
  * Created by ollide on 29.06.16.
  */
-public class QuoteView extends LinearLayout {
+public class QuoteView extends LinearLayout implements View.OnClickListener {
 
+    private TextView msgTv;
     private Quote quote;
 
     public QuoteView(Context context) {
@@ -27,6 +30,7 @@ public class QuoteView extends LinearLayout {
         setOrientation(LinearLayout.VERTICAL);
         setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         setBackgroundResource(R.drawable.view_quote_background);
+        setOnClickListener(this);
     }
 
     public QuoteView(Context context, AttributeSet attrs) {
@@ -63,9 +67,14 @@ public class QuoteView extends LinearLayout {
         TextView publishedTv = (TextView) findViewById(R.id.quotePublishDateTv);
         publishedTv.setText(quote.getPublishedAt());
 
-        TextView msgTv = (TextView) findViewById(R.id.message);
+        msgTv = (TextView) findViewById(R.id.message);
         msgTv.setText(Html.fromHtml(quote.getMessage()));
         msgTv.setMovementMethod(LinkMovementMethod.getInstance());
+
+        // do not show quoted messages if it's nested
+        if (quote.getDepth() > 0) {
+            showContent(false);
+        }
 
         if (quote.getNestedQuote() != null) {
             QuoteView nestedQv = new QuoteView(getContext());
@@ -74,4 +83,25 @@ public class QuoteView extends LinearLayout {
         }
     }
 
+    @Override
+    public void onClick(View view) {
+        toggleContentRecursively(null);
+    }
+
+    public void toggleContentRecursively(Boolean collapsed) {
+        collapsed = collapsed != null ? collapsed : (msgTv.getMaxLines() == 1);
+        msgTv.setMaxLines(collapsed ? Integer.MAX_VALUE : 1);
+        msgTv.setSingleLine(!collapsed);
+
+        ViewParent parent = getParent();
+        if (parent != null && parent instanceof QuoteView) {
+            ((QuoteView) parent).showContent(collapsed);
+        }
+    }
+
+    public void showContent(Boolean show) {
+        show = show != null ? show : (msgTv.getMaxLines() == 1);
+        msgTv.setMaxLines(show ? Integer.MAX_VALUE : 1);
+        msgTv.setSingleLine(!show);
+    }
 }

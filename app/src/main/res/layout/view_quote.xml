@@ -5,10 +5,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
-        android:background="?android:attr/selectableItemBackground">
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp">
 
         <TextView
             android:id="@+id/quoteAuthorTv"
@@ -31,9 +30,10 @@
             android:id="@+id/message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/quoteAuthorTv"
+            android:ellipsize="end"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/black"
-            android:layout_below="@+id/quoteAuthorTv" />
+            android:textColor="@android:color/black" />
 
     </RelativeLayout>
 

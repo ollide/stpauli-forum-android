@@ -29,7 +29,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import timber.log.Timber;
 
-public class TopicActivity extends AppCompatActivity implements PostAdapter.OnItemClickListener {
+public class TopicActivity extends AppCompatActivity {
 
     public static final String EXTRA_TOPIC_ID = "topicId";
     public static final String EXTRA_LAST_POST_ID = "lastPostId";
@@ -85,8 +85,6 @@ public class TopicActivity extends AppCompatActivity implements PostAdapter.OnIt
         recyclerView.setLayoutManager(layoutManager);
 
         postAdapter = new PostAdapter();
-        postAdapter.setOnItemClickListener(this);
-
         recyclerView.setAdapter(postAdapter);
         RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, LinearLayoutManager.VERTICAL);
         recyclerView.addItemDecoration(itemDecoration);
@@ -123,9 +121,5 @@ public class TopicActivity extends AppCompatActivity implements PostAdapter.OnIt
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onItemClick(View view, Post post) {
     }
 }

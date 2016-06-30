@@ -24,7 +24,6 @@ import java.util.List;
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder> {
 
     private List<Post> posts = Collections.emptyList();
-    private OnItemClickListener clickListener;
 
     private Context viewContext;
 
@@ -73,7 +72,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         return posts == null ? 0 : posts.size();
     }
 
-    class PostViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    class PostViewHolder extends RecyclerView.ViewHolder {
 
         ImageView avatar;
         TextView author;
@@ -87,24 +86,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
             author = (TextView) itemView.findViewById(R.id.authorNameTv);
             date = (TextView) itemView.findViewById(R.id.publishDateTv);
             content = (LinearLayout) itemView.findViewById(R.id.postContentLayout);
-
-            itemView.setOnClickListener(this);
         }
 
-        @Override
-        public void onClick(View v) {
-            if (clickListener != null) {
-                clickListener.onItemClick(v, posts.get(getAdapterPosition()));
-            }
-        }
-    }
-
-    public interface OnItemClickListener {
-        void onItemClick(View view, Post post);
-    }
-
-    public void setOnItemClickListener(final OnItemClickListener itemClickListener) {
-        this.clickListener = itemClickListener;
     }
 
 }

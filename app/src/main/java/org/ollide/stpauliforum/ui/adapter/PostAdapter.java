@@ -3,6 +3,7 @@ package org.ollide.stpauliforum.ui.adapter;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,6 +63,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
                 TextView tv = new TextView(viewContext);
                 tv.setTextAppearance(viewContext, R.style.PostMessage);
                 tv.setText(Html.fromHtml(message.getMessage()));
+                tv.setMovementMethod(LinkMovementMethod.getInstance());
                 viewHolder.content.addView(tv);
             }
         }

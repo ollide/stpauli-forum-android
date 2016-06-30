@@ -2,6 +2,7 @@ package org.ollide.stpauliforum.ui;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
@@ -9,12 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
-import android.view.View;
 
 import org.ollide.stpauliforum.ForumApp;
 import org.ollide.stpauliforum.R;
 import org.ollide.stpauliforum.api.TopicService;
-import org.ollide.stpauliforum.model.Post;
 import org.ollide.stpauliforum.model.Topic;
 import org.ollide.stpauliforum.model.html.PostList;
 import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
@@ -42,8 +41,8 @@ public class TopicActivity extends AppCompatActivity {
     RecyclerView recyclerView;
 
     private int topicId;
-    private int lastPostId;
-    private String topicName;
+    private int lastPostId = 0;
+    private String topicName = "";
 
     private PostAdapter postAdapter;
 
@@ -71,15 +70,22 @@ public class TopicActivity extends AppCompatActivity {
         assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        Bundle extras = getIntent().getExtras();
+        Intent intent = getIntent();
+        Bundle extras = intent.getExtras();
         if (extras != null && extras.containsKey(EXTRA_TOPIC_NAME)) {
             topicName = extras.getString(EXTRA_TOPIC_NAME);
             topicId = extras.getInt(EXTRA_TOPIC_ID, 0);
             lastPostId = extras.getInt(EXTRA_LAST_POST_ID, 0);
-            actionBar.setTitle(topicName);
+        } else if (intent.getData() != null) {
+            Uri data = intent.getData();
+            topicId = Integer.parseInt(data.getQueryParameter("t"));
+            topicName = "Thema";
         } else {
-            // throw exception
+            Timber.w("what am I doing here?!");
+            finish();
+            return;
         }
+        actionBar.setTitle(topicName);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

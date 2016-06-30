@@ -43,6 +43,17 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.ollide.stpauliforum.ui.ForumActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:host="www.stpauli-forum.de" />
+                <data android:pathPrefix="/viewtopic.php" />
+            </intent-filter>
         </activity>
     </application>
 

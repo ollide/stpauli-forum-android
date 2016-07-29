@@ -129,30 +129,41 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
     }
 
     protected void parseIdAndCurrentAndLastPage(PostList postList, Element pagination) {
-        String paginationLink = pagination.getElementsByTag("a").first().attr("href");
-        String topicId = "-1";
-        Matcher m = QUERY_PARAM_T_PATTERN.matcher(paginationLink);
-        if (m.find()) {
-            topicId = m.group(1);
+        int currentPage = 1;
+        int totalPages = 1;
+        // TODO: topicId is not parsed when there's only 1 page
+        int topicId = -1;
+
+        Element paginationHref = pagination.getElementsByTag("a").first();
+        if (paginationHref != null) {
+
+            String paginationLink = paginationHref.attr("href");
+            Matcher m = QUERY_PARAM_T_PATTERN.matcher(paginationLink);
+            if (m.find()) {
+                topicId = Integer.parseInt(m.group(1));
+            }
+
+            Element last = pagination.children().last();
+            Element currentPageB;
+            Element lastPage;
+            if (last.tagName().equals("b")) {
+                currentPageB = last;
+                lastPage = last;
+            } else {
+                currentPageB = pagination.getElementsByTag("b").last();
+                lastPage = pagination.child(pagination.children().size() - 2);
+            }
+            try {
+                currentPage = Integer.parseInt(currentPageB.text());
+                totalPages = Integer.parseInt(lastPage.text());
+            } catch (NumberFormatException e) {
+                Timber.w("couldn't parse topicId or current/last page.");
+            }
         }
 
-        Element last = pagination.children().last();
-        Element currentPageB;
-        Element lastPage;
-        if (last.tagName().equals("b")) {
-            currentPageB = last;
-            lastPage = last;
-        } else {
-            currentPageB = pagination.getElementsByTag("b").last();
-            lastPage = pagination.child(pagination.children().size() - 2);
-        }
-        try {
-            postList.setTopicId(Integer.parseInt(topicId));
-            postList.setCurrentPage(Integer.parseInt(currentPageB.text()));
-            postList.setLastPage(Integer.parseInt(lastPage.text()));
-        } catch (NumberFormatException e) {
-            Timber.w("couldn't parse topicId or current/last page.");
-        }
+        postList.setTopicId(topicId);
+        postList.setCurrentPage(currentPage);
+        postList.setLastPage(totalPages);
     }
 
     protected Post parsePost(Element postRow) {

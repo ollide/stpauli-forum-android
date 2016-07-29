@@ -102,6 +102,11 @@ public class PostListResponseBodyConverterTest {
         assertEquals(251, postList.getCurrentPage());
         assertEquals(251, postList.getLastPage());
         assertEquals(74396, postList.getTopicId());
+
+        is = this.getClass().getResourceAsStream("/topics/quo_vadis_fcsp_1p_only.txt");
+        body = ResponseBody.create(MediaType.parse("text/html"), IOUtils.toString(is, StandardCharsets.UTF_8));
+        postList = converter.convert(body);
+        assertNotNull(postList);
     }
 
 }

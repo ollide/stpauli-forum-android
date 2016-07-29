@@ -1,0 +1,326 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache"><META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<link rel="top" href="index.php" title="" />
+<link rel="search" href="search.php" title="" />
+<link rel="help" href="faq.php" title="" />
+<link rel="author" href="memberlist.php" title="" />
+<link rel="prev" href="viewtopic.php?t=79949&amp;view=previous" title="Vorheriges Thema anzeigen" />
+<link rel="next" href="viewtopic.php?t=79949&amp;view=next" title="Nächstes Thema anzeigen" />
+<link rel="up" href="viewforum.php?f=1" title=" FC St. Pauli – Fußballgöttinnen und Fußballgötter " />
+<link rel="chapter forum" href="viewforum.php?f=1" title=" FC St. Pauli – Fußballgöttinnen und Fußballgötter " />
+<link rel="chapter forum" href="viewforum.php?f=42" title="FC St. Pauli - andere Sportarten" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Sport von A bis Z" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Tippspiel" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="St. Pauli Fanaktionen" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="St. Pauli Fanladen" />
+<link rel="chapter forum" href="viewforum.php?f=66" title="Fanräume" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Fanclub Sprecherrat" />
+<link rel="chapter forum" href="viewforum.php?f=59" title="Sozialromantiker und andere große Protestaktionen" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Fans weltweit" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Flohmarkt" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="FC St. Pauli" />
+<link rel="chapter forum" href="viewforum.php?f=44" title="Fanshop/Merchandising" />
+<link rel="chapter forum" href="viewforum.php?f=78" title="Kartencenter" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Viva con Agua de Sankt Pauli" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="For our visitors from abroad" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="FAQ / Anregungen / Kritik / News" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Klönschnack / Laberecke" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Unpaulitisch?" />
+<link rel="chapter forum" href="viewforum.php?f=75" title="Ratgeber und Lebenshilfe" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="Internethilfe / Computerfragen / Webmasteraustausch" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Testforum" />
+<title>St. Pauli Fanforum :: Thema anzeigen - Quo Vadis FC St. Pauli 16/17</title>
+<link rel="stylesheet" href="templates/forum/forum.css" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+<!--
+function showPopup(target) {
+	var popup = document.sites.selSite;
+    if((popup.options[popup.selectedIndex].value != "0") && (popup.options[popup.selectedIndex].value != "")) {
+	  window.open(popup.options[popup.selectedIndex].value, target);
+	  popup.selectedIndex = 0;
+	}
+}
+function soliWin() {
+        neuWin = window.open('fanladen-soli.php','Solikonzert','width=447,height=617,resizable=no,scrollbars,top=50,left=50');
+        neuWin.focus();
+}
+//-->
+</script>
+ <link href="/favicon.ico" rel="shortcut icon">
+</head>
+<body bgcolor="#E5E5E5" text="#000000" link="#006699" vlink="#006699">
+<a name="top"></a>
+<table BORDER="0" CELLPADDING="3" CELLSPACING="1" WIDTH="99%" align="center" class="headerbackTable">
+<tr>
+   <td ALIGN="left" WIDTH="80%" VALIGN="TOP" class="genmed"><b>Dieses
+    Forum ist kein offizielles Forum des FC St. Pauli, sondern wird von engagierten Fans des Vereins betrieben.</b>
+    Das Posten ist nur für registrierte Benutzer gestattet.<!-- 12 -->
+    <b>Mit Benutzung des Boardes gilt der
+    <a class="mainmenu" href="javascript:neuFenster=window.open('disclaimer.php','NewWindow','toolbar=no,location=no,directories=no,status=no,menuebar=no,scrollbars=yes,resizable=no,copyhistory=no,width=450,height=450');neuFenster.focus();" onMouseover="status='';return true;">Disclaimer</a>
+    als akzeptiert.</b><br />
+    Fragen / Probleme: <a class="mainmenu" href="mailto:info@stpauli-forum.de">Kontakt</a>&nbsp;|&nbsp;
+    <a class="mainmenu" href="javascript:neuFenster=window.open('impressum.php','NewWindow','toolbar=no,location=no,directories=no,status=no,menuebar=no,scrollbars=yes,resizable=no,copyhistory=no,width=400,height=450');neuFenster.focus();" onMouseover="status='';return true;">Impressum</a>&nbsp;|&nbsp;
+    <a class="mainmenu" href="javascript:neuFenster=window.open('disclaimer.php','NewWindow','toolbar=no,location=no,directories=no,status=no,menuebar=no,scrollbars=yes,resizable=no,copyhistory=no,width=450,height=450');neuFenster.focus();" onMouseover="status='';return true;">Disclaimer</a>&nbsp;|&nbsp;
+    <a class="mainmenu" href="faq.php">FAQ</a>&nbsp;|&nbsp;
+    <a href="acronyme.php" class="mainmenu">Abkürzungen</a>&nbsp;|&nbsp;
+    <a href="statistics.php" class="mainmenu">Statistik</a>&nbsp;|&nbsp;
+    &copy; 2001-2011
+    &nbsp;|&nbsp;<a href="rssinfo.php" class="mainmenu"><img src="images/rssinfo.gif" border="0" title="RSS-Feeds" alt="RSS-Feeds" /></a></td>
+</tr>
+</table>
+<table border="0" WIDTH="98%" CELLPADDING="0" cellspacing="0" ALIGN="CENTER">
+<tr>
+  <td class="bodyline" ALIGN="left" WIDTH="50%" ROWSPAN="2" VALIGN="top">
+    <table border="0" width="100%" align="center" cellpadding="2" cellspacing="2">
+    <tr>
+     <td class="bodyline" align="center" valign="top"><a href="index.php" onmouseover="status='Index';return true;" onmouseout="status='';return true;"><img src="images/logo3.gif" border="0" alt="St. Pauli Fanforum Index" vspace="1" /></a></td>
+    </tr>
+    <tr>
+      <td align="center" class="headerback" valign="top">
+		[<a class="mainmenulk" href="index.php">Home</a>]&nbsp;&nbsp;&nbsp;
+  	         		[<a class="mainmenulk" href="profile.php?mode=editprofile">Profil</a>]&nbsp;&nbsp;&nbsp;
+	   		[<a class="mainmenulk" href="search.php">Suchen</a>]&nbsp;&nbsp;&nbsp;
+		[<a class="mainmenulk" href="tippspiel.php">Liga-Tipp</a>]&nbsp;&nbsp;&nbsp;
+		[<a class="mainmenulk" href="recent.php">Neue Beiträge</a>]
+      </td>
+    </tr>
+    <tr>
+      <td align="center" class="headerback" valign="top" nowrap="nowrap">
+	   						                [<a class="mainmenulk" href="profile.php?mode=privmsg">Du hast keine neuen Nachrichten</a>]&nbsp;&nbsp;&nbsp;
+                [<a class="mainmenulk" href="login.php?logout=true&amp;sid=ac7df3fbe3a1a7dbfe0da6fcd3f27d8c">Logout [ olli09 ]</a>]
+      </td>
+    </tr>
+	      <tr>
+      <td align="center" class="headerback" valign="middle" style="padding-top:2px;"><div class="gensmall">
+	      Dein letzter Besuch war am: 29.07.2016 12:02<br />
+      <form method="post" action="/viewtopic.php?t=79949" name="online_select" style="margin:0;">
+	      Online anzeigen: <input class="smallradio"  type="radio" name="onlinefor" value="1" onClick="document.online_select.submit()" /> Ja <input type="radio" class="smallradio" name="onlinefor" value="0" onClick="document.online_select.submit()" /> Nein <input type="radio" class="smallradio" name="onlinefor" value="2" checked onClick="document.online_select.submit()" /> Nur Buddies      </form></div></td>
+    </tr>
+	  </table>
+  </td>
+  <td ALIGN="left" WIDTH="20%" ROWSPAN="2" VALIGN="top">&nbsp;</td>
+  <td align="right" width="30%" valign="top">
+    <table border="0" width="70%" align="right" cellpadding="3" cellspacing="0">
+    <tr>
+      <td align="left" class="gensmall" valign="middle">Unterstützt den Fanladen:<br />
+      <a href="http://www.stpauli-fanladen.de" target="_blank" onMouseover="status='';return true;"><img src="images/fanladen-info.gif" border="0" alt="Fanladen St. Pauli" title="" /></a>
+	  </td>
+      <td align="right" class="gensmall" valign="middle">Anzeige:<br />
+      <a href="/afm.php" target="_blank" onMouseover="status='AFM';return true;" onMouseout="status='';return true;"><img src="images/afm_werbung.jpg" border="0" alt="AFM-Info" title="" /></a>
+	  </td>
+    </tr>
+    <tr>
+     <td class="gensmall" style="text-align: leftvertical-align:midle; padding-top:8px;">stpauli-forum.de wird unterstützt von<br/><a href="http://www.q-mex.net" onmouseover="status='Q-MEX Networks';return true;" onmouseout="status='';return true;"><img src="images/logo-qmex-3.jpg" border="0" alt="Q-MEX Networks" vspace="1" /></a></td>
+     <td align="right" class="gensmall" valign="bottom">Anzeige:<br /><a href="http://www.casarebelde.com" target="_blank" onMouseover="status='';return true;"><img src="images/casarebelde.jpg" border="0" alt="Visit Casa Rebelde" title="" width="157" height=75"/></td>
+    </tr>
+        </table>
+  </td>
+</tr>
+</table>
+
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function ref(object)
+{
+	if (document.getElementById)
+	{
+		return document.getElementById(object);
+	}
+	else if (document.all)
+	{
+		return eval('document.all.' + object);
+	}
+	else
+	{
+		return false;
+	}
+}
+
+function toggle(pobject)
+{
+	object = ref('post_' + pobject);
+
+	if( !object.style )
+	{
+		return false;
+	}
+
+	if( object.style.display == 'none' )
+	{
+		object.style.display = '';
+	}
+	else
+	{
+		object.style.display = 'none';
+	}
+}
+//-->
+</script>
+
+<br />
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr>
+	<td align="left" valign="bottom" width="100%" colspan="2"><span class="nav"><a href="index.php" class="nav">St. Pauli Fanforum Index</a> -> <a class="nav" href="viewforum.php?f=1"> FC St. Pauli – Fußballgöttinnen und Fußballgötter </a> ->&nbsp;Quo Vadis FC St. Pauli 16/17</span>
+    </td>
+    </tr>
+  <tr>
+	<td align="left" valign="bottom" width="100%" colspan="2"><a href="viewonline.php" class="nav">Wer ist online?</a> <span class="gensmall"><a class="genmed" href="profile.php?mode=viewprofile&u=13016">Currywurst</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=2707">Drago</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=7834">Gandalf</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=10636">heikoseifert</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=4873">ich</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=15202">Jack Casady</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=2930">Kochrezept</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=6237">lauf_forrest1910</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=14761"><i>olli09</i></a>, <a class="genmed" href="profile.php?mode=viewprofile&u=15798">salieri</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=14348">stultus</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=9743">Tue</a>, <a class="genmed" href="profile.php?mode=viewprofile&u=10665">wwwfcStPauliSE</a> + 8 weitere Benutzer + 43 G&auml;ste</span>
+	</td>
+  </tr>
+  <tr>
+        <td align="left" valign="middle" class="nav"><span class="pagination"></span></td>
+	<td align="right" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=newtopic&amp;f=1"><img src="templates/forum/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=reply&amp;t=79949"><img src="templates/forum/images/lang_german/reply.gif" border="0" alt="Neue Antwort erstellen" align="middle" /></a></span></td>
+  </tr>
+</table>
+<table class="forumline" width="100%" cellspacing="1" cellpadding="4" border="0">
+	<tr align="right">
+                <td align="left" class="catHead"><span class="nav"><a href="printview.php?t=79949&amp;start=0" title="Druckversion" class="mainmenulk" target="_blank"><img src="templates/forum/images/lang_german/print.gif" alt="Druckversion" title="Druckversion" border="0" /></a></span></td>
+		<td class="catHead"><span class="nav"><a href="viewtopic.php?t=79949&amp;view=previous" class="nav">Vorheriges Thema anzeigen</a>&nbsp;&nbsp;<img src="images/div.gif">&nbsp;&nbsp;<a href="viewtopic.php?t=79949&amp;view=next" class="nav">Nächstes Thema anzeigen</a> &nbsp;
+		&nbsp;<img src="images/div.gif">&nbsp;&nbsp;<a href="#pagedown" class="nav">Zum Seitenende</a> &nbsp;</span></td>
+	</tr>
+		<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap" align="left">Autor</th>
+		<th class="thRight" nowrap="nowrap" align="left">Quo Vadis FC St. Pauli 16/17</th>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row1">
+                                      <a name="4203336"></a><span class="name"><span class="gen">Palme</span></span><div class="genmed"><b><img src="images/star4.gif" alt="Alter Stamm Ultra" title="Alter Stamm Ultra" border="0" /><br />Alter Stamm Ultra</b></div><div align="left"><img src="images/avatars/gallery/Old_school/FS2_giraffe.gif" alt="Avatar" border="0" height="60" width="60" /></div><br /><div align="left" class="gensmall">Wohnort:&nbsp;Palast zur sozialen Gerechtigkeit, roter Salon.</div></td>
+		<td class="row1" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="1"></a><a href="viewtopic.php?p=4203336#4203336"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 29.07.2016 19:24&nbsp;&nbsp; &nbsp;Titel: <b>Quo Vadis FC St. Pauli 16/17</b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4203336"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#"></a>&nbsp;&nbsp;<a href="#2">N&auml;chster</a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">auf vielfachen, äh einfachen wunsch...  <img src="images/smiles/icon_smoke.gif" alt="icon_smoke.gif" border="0" />
+<br />
+der neue thread zur neuen saison...</span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"><br /><br />_________________<br /><img src="http://www.prag-cityguide.de/kultur/film/filmpics/pantau3.jpg" border="0" /></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=422"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=422"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4203336"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+			<tr>
+		<td width="150" align="left" valign="top" class="row2">
+                                      <a name="4203342"></a><span class="name"><span class="gen">Currywurst</span></span><div class="genmed"><b><img src="images/star3.gif" alt="Alter Stamm" title="Alter Stamm" border="0" /><br />Alter Stamm</b></div><div align="left" class="gensmall">Mitglied seit:&nbsp;19.08.2012</div><div align="left" class="gensmall">Beiträge:&nbsp;367</div></td>
+		<td class="row2" height="28" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				<td width="60%"><a name="2"></a><a href="viewtopic.php?p=4203342#4203342"><img src="templates/forum/images/icon_minipost.gif" width="12" height="9" alt="Beitrag" title="Beitrag" border="0" /></a><span class="postdetails">Verfasst am: 29.07.2016 19:40&nbsp;&nbsp; &nbsp;Titel: <b></b></span>&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4203342"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;&nbsp;</td>
+				<td width="20%" nowrap="nowrap" valign="middle" align="right"><span class="gensmall"><IMG SRC="images/div.gif" border="0">&nbsp;&nbsp;<a href="#1">Vorheriger</a>&nbsp;&nbsp;<a href="#"></a>&nbsp;</span>
+                                     </td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="top"><br /><span class="postbody">Also meine Einschätzung.....wie fast jedes Jahr...wenns gut läuft, um Platz 4 herum....wenns nicht ganz so gut läuft, um Platz 9 herum....wenn die Mannschaft nicht funzt und mit viel Verletzungspech, müssen wir um den Klassenerhalt kämpfen ( wie Nürnberg und die Region)
+<br />
+
+<br />
+Ich wünsche mit viel Spaß, tolle Atmosphäre und viel mehr Punkte als zuletzt am Millerntor und mein Bauch sagt, am Ende der beginnenden Saison, steht eine Riesenparty auf dem Kiez <img src="images/smiles/cool.gif" alt="cool.gif" border="0" /></span></td>
+			</tr>
+			<tr>
+				<td colspan="3" valign="bottom"></td>
+			</tr>
+		</table></td>
+	</tr>
+		<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Nach oben</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap">
+		      <table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+		          <tr>
+		              <td nowrap="nowrap" align="left">
+    		                <table cellspacing="0" cellpadding="0" border="0">
+    		                  <tr><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=viewprofile&amp;u=13016"><img src="templates/forum/images/lang_german/icon_profile.gif" border="0" alt="Benutzer-Profile anzeigen" title="Benutzer-Profile anzeigen" /></a>&nbsp;</span></td><td valign="bottom" nowrap="nowrap"><span class="gensmall"><a href="./profile.php?mode=privmsg&amp;privmsg_mode=post&amp;b=13016"><img src="templates/forum/images/lang_german/icon_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" border="0" /></a>&nbsp;</span></td></tr>
+    		                </table>
+    		              </td>
+      			      <td valign="bottom" align="right" nowrap="nowrap" width="50%">&nbsp;&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=quote&amp;p=4203342"><img src="templates/forum/images/lang_german/icon_quote.gif" alt="Antworten mit Zitat" title="Antworten mit Zitat" border="0" /></a>&nbsp;</td>
+		          </tr>
+		      </table>
+		</td>
+	</tr>
+				<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/forum/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center">
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=79949&amp;start=0">
+				<td align="center"><span class="gensmall">Beiträge vom vorherigen Thema anzeigen: <select name="postdays"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="364">1 Jahr</option></select>&nbsp;<select name="postorder"><option value="asc" selected="selected">Die ältesten zuerst</option><option value="desc">Die neusten zuerst</option></select>&nbsp;<input type="submit" value="Go" class="liteoption" name="submit" /></span></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr>
+	<td align="left" valign="middle" nowrap="nowrap"><br />
+	<span class="nav"><a href="posting.php?mode=newtopic&amp;f=1"><img src="templates/forum/images/lang_german/post.gif" border="0" alt="Neues Thema eröffnen" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="posting.php?mode=reply&amp;t=79949"><img src="templates/forum/images/lang_german/reply.gif" border="0" alt="Neue Antwort erstellen" align="middle" /></a></span><br />
+	<br />
+	<span class="nav"><a href="index.php" class="nav">St. Pauli Fanforum Index</a>
+	  -> <a href="viewforum.php?f=1" class="nav"> FC St. Pauli – Fußballgöttinnen und Fußballgötter </a> ->&nbsp;Quo Vadis FC St. Pauli 16/17</span>
+	</td>
+	<td align="right" valign="middle"><span class="nav">Seite <b>1</b> von <b>1</b></span><br /><br /><span class="pagination"></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr>
+	<td width="40%" valign="middle" nowrap="nowrap" align="left"><span class="gensmall"><a class="pagination" href="viewtopic.php?t=79949&watch=topic&amp;start=0&amp;sid=ac7df3fbe3a1a7dbfe0da6fcd3f27d8c">Bei Antworten zu diesem Thema benachrichtigen</a></span></td>
+	<td valign="middle" nowrap="nowrap" align="center"></td>
+	<td align="right" valign="middle" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Forum auswählen</option><option value="-1"> </option><option value="-1">Rund um den Sport</option><option value="-1">----------------</option><option value="1"selected="selected"> FC St. Pauli – Fußballgöttinnen und Fußballgötter </option><option value="42">FC St. Pauli - andere Sportarten</option><option value="34">Sport von A bis Z</option><option value="12">Tippspiel</option><option value="-1"> </option><option value="-1">Rund um die Fanszene</option><option value="-1">----------------</option><option value="4">St. Pauli Fanaktionen</option><option value="2">St. Pauli Fanladen</option><option value="66">Fanräume</option><option value="39">Fanclub Sprecherrat</option><option value="59">Sozialromantiker und andere große Protestaktionen</option><option value="43">Fans weltweit</option><option value="13">Flohmarkt</option><option value="-1"> </option><option value="-1">Offizielles</option><option value="-1">----------------</option><option value="3">FC St. Pauli</option><option value="44">Fanshop/Merchandising</option><option value="78">Kartencenter</option><option value="40">Viva con Agua de Sankt Pauli</option><option value="-1"> </option><option value="-1">English Forum</option><option value="-1">----------------</option><option value="5">For our visitors from abroad</option><option value="-1"> </option><option value="-1">Sonstiges</option><option value="-1">----------------</option><option value="7">FAQ / Anregungen / Kritik / News</option><option value="6">Klönschnack / Laberecke</option><option value="11">Unpaulitisch?</option><option value="75">Ratgeber und Lebenshilfe</option><option value="8">Internethilfe / Computerfragen / Webmasteraustausch</option><option value="10">Testforum</option></select>&nbsp;<input type="submit" value="Go" class="liteoption" /></span></td>
+	</tr>
+</table></form>
+
+</td>
+  </tr>
+</table>
+
+<div align="center"><span class="adminlink"><br /></span><br />
+<span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_blank" class="copyright">phpBB</a>
+&copy; phpBB Group<br />
+Modifiziert und  von
+snief (stpauli-forum.de)<a name="pagedown">&nbsp;.</a><br />
+<br /></span>
+</div>
+<!--<script defer="defer" id="snap_preview_anywhere" type="text/javascript" src="http://spa.snap.com/snap_preview_anywhere.js?ap=0&amp;key=db28f39041d2dd56c1d475b43ceeafd9&amp;sb=0&amp;domain=www.stpauli-forum.de"></script>-->
+</body>
+</html>
+

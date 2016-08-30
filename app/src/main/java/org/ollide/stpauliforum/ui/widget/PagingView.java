@@ -1,5 +1,6 @@
 package org.ollide.stpauliforum.ui.widget;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
@@ -15,9 +16,12 @@ public class PagingView extends LinearLayout {
 
     private View firstPage;
     private View prevPage;
-    private TextView currentPage;
+    private TextView pageInfo;
     private View nextPage;
     private View lastPage;
+
+    private int currentPage;
+    private int totalPages;
 
     private PagingListener listener = null;
 
@@ -51,7 +55,8 @@ public class PagingView extends LinearLayout {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
-                    listener.onFirst();
+                    currentPage = 1;
+                    listener.onPageRequested(currentPage);
                 }
             }
         });
@@ -60,17 +65,19 @@ public class PagingView extends LinearLayout {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
-                    listener.onPrev();
+                    currentPage = currentPage > 1 ? 1 : currentPage;
+                    listener.onPageRequested(currentPage);
                 }
             }
         });
-        currentPage = (TextView) getChildAt(2);
+        pageInfo = (TextView) getChildAt(2);
         nextPage = getChildAt(3);
         nextPage.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
-                    listener.onNext();
+                    currentPage = currentPage < totalPages ? currentPage + 1 : currentPage;
+                    listener.onPageRequested(currentPage);
                 }
             }
         });
@@ -79,10 +86,19 @@ public class PagingView extends LinearLayout {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
-                    listener.onLast();
+                    currentPage = totalPages;
+                    listener.onPageRequested(currentPage);
                 }
             }
         });
+    }
+
+    @SuppressLint("DefaultLocale")
+    public void setPageInfo(int current, int total) {
+        currentPage = current;
+        totalPages = total;
+
+        pageInfo.setText(String.format("%d / %d", current, total));
     }
 
     public PagingListener getListener() {
@@ -93,15 +109,9 @@ public class PagingView extends LinearLayout {
         this.listener = listener;
     }
 
-    interface PagingListener {
+    public interface PagingListener {
 
-        void onFirst();
-
-        void onPrev();
-
-        void onNext();
-
-        void onLast();
+        void onPageRequested(int page);
 
     }
 

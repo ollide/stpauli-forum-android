@@ -18,6 +18,7 @@ import org.ollide.stpauliforum.model.Topic;
 import org.ollide.stpauliforum.model.html.PostList;
 import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
 import org.ollide.stpauliforum.ui.adapter.PostAdapter;
+import org.ollide.stpauliforum.ui.widget.PagingView;
 
 import javax.inject.Inject;
 
@@ -28,7 +29,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import timber.log.Timber;
 
-public class TopicActivity extends AppCompatActivity {
+public class TopicActivity extends AppCompatActivity implements PagingView.PagingListener {
 
     public static final String EXTRA_TOPIC_ID = "topicId";
     public static final String EXTRA_LAST_POST_ID = "lastPostId";
@@ -39,6 +40,9 @@ public class TopicActivity extends AppCompatActivity {
 
     @BindView(R.id.postRecyclerView)
     RecyclerView recyclerView;
+
+    @BindView(R.id.pagingView)
+    PagingView pagingView;
 
     private int topicId;
     private int lastPostId = 0;
@@ -100,6 +104,8 @@ public class TopicActivity extends AppCompatActivity {
         } else if (lastPostId > 0) {
             topicService.getPostsByPostId(lastPostId).enqueue(postListCallback);
         }
+
+        pagingView.setListener(this);
     }
 
     Callback<PostList> postListCallback = new Callback<PostList>() {
@@ -109,6 +115,7 @@ public class TopicActivity extends AppCompatActivity {
             PostList postList = response.body();
             if (postList != null) {
                 postAdapter.setPosts(postList.getPosts());
+                pagingView.setPageInfo(postList.getCurrentPage(), postList.getLastPage());
             }
         }
 
@@ -127,5 +134,10 @@ public class TopicActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onPageRequested(int page) {
+        // TODO
     }
 }

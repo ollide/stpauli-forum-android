@@ -8,6 +8,7 @@
     tools:context="org.ollide.stpauliforum.ui.TopicActivity">
 
     <org.ollide.stpauliforum.ui.widget.PagingView
+        android:id="@+id/pagingView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" />

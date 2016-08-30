@@ -6,6 +6,7 @@ import org.ollide.stpauliforum.api.ApiModule;
 import org.ollide.stpauliforum.api.LoginClient;
 import org.ollide.stpauliforum.ui.ForumActivity;
 import org.ollide.stpauliforum.ui.TopicActivity;
+import org.ollide.stpauliforum.ui.WebViewActivity;
 
 import javax.inject.Singleton;
 
@@ -29,4 +30,7 @@ public interface ForumComponent {
     void inject(TopicActivity target);
 
     void inject(LoginClient loginClient);
+
+    void inject(WebViewActivity webViewActivity);
+
 }

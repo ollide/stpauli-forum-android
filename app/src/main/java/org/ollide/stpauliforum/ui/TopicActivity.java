@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import org.ollide.stpauliforum.ForumApp;
@@ -19,6 +20,7 @@ import org.ollide.stpauliforum.model.html.PostList;
 import org.ollide.stpauliforum.ui.adapter.DividerItemDecoration;
 import org.ollide.stpauliforum.ui.adapter.PostAdapter;
 import org.ollide.stpauliforum.ui.widget.PagingView;
+import org.ollide.stpauliforum.util.ForumUtils;
 
 import javax.inject.Inject;
 
@@ -126,11 +128,22 @@ public class TopicActivity extends AppCompatActivity implements PagingView.Pagin
     };
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_topic, menu);
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
+                return true;
+            case R.id.action_open_in_browser:
+                Intent in = new Intent(TopicActivity.this, WebViewActivity.class);
+                in.putExtra("url", ForumUtils.urlShowThreadLatest(topicId));
+                startActivity(in);
                 return true;
         }
         return super.onOptionsItemSelected(item);

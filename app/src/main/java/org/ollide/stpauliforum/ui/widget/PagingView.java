@@ -65,7 +65,7 @@ public class PagingView extends LinearLayout {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
-                    currentPage = currentPage > 1 ? 1 : currentPage;
+                    currentPage = currentPage > 1 ? currentPage - 1 : currentPage;
                     listener.onPageRequested(currentPage);
                 }
             }

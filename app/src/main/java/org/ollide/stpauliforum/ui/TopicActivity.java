@@ -121,6 +121,7 @@ public class TopicActivity extends AppCompatActivity implements PagingView.Pagin
 
                 postAdapter.setPosts(postList.getPosts());
                 pagingView.setPageInfo(postList.getCurrentPage(), postList.getLastPage());
+                recyclerView.scrollToPosition(0);
             }
         }
 

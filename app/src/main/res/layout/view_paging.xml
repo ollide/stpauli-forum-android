@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Button
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="&lt;&lt;" />
+        android:src="@drawable/ic_first_page_black_24px" />
 
-    <Button
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="&lt;" />
+        android:src="@drawable/ic_chevron_left_black_24dp" />
 
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="18 / 18" />
+        android:text="- / -"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
-    <Button
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="&gt;" />
+        android:src="@drawable/ic_chevron_right_black_24dp" />
 
-    <Button
+    <ImageView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="&gt;&gt;" />
+        android:src="@drawable/ic_last_page_black_24px" />
 
 </merge>

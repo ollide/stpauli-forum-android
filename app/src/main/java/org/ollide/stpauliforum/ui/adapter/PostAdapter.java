@@ -54,6 +54,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         viewHolder.author.setText(post.getAuthor());
         viewHolder.date.setText(post.getPublishedAt());
 
+        // Make sure the content container is empty
+        viewHolder.content.removeAllViews();
+
         for (Message message : post.getMessages()) {
             if (message instanceof Quote) {
                 QuoteView qv = new QuoteView(viewContext);

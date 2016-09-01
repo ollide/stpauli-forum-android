@@ -116,6 +116,9 @@ public class TopicActivity extends AppCompatActivity implements PagingView.Pagin
             Timber.d("got a response");
             PostList postList = response.body();
             if (postList != null) {
+                topicId = postList.getTopicId();
+                topicName = postList.getTopicName();
+
                 postAdapter.setPosts(postList.getPosts());
                 pagingView.setPageInfo(postList.getCurrentPage(), postList.getLastPage());
             }
@@ -151,6 +154,8 @@ public class TopicActivity extends AppCompatActivity implements PagingView.Pagin
 
     @Override
     public void onPageRequested(int page) {
-        // TODO
+        topicService
+                .getPostsAscStartingAt(topicId, ForumUtils.pageToEntryOffset(page))
+                .enqueue(postListCallback);
     }
 }

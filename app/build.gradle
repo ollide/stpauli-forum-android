@@ -12,11 +12,21 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    signingConfigs {
+        release {
+            keyAlias = "fcsp"
+        }
+    }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
+    }
+
+    lintOptions {
+        abortOnError false
     }
 
     compileOptions {
@@ -64,4 +74,15 @@ dependencies {
     testCompile 'joda-time:joda-time:2.9.4'
     testCompile 'commons-io:commons-io:2.5'
 
+}
+
+if (project.hasProperty('storeFile') &&
+        project.hasProperty('storePassword') &&
+        project.hasProperty('keyPassword')) {
+    android.signingConfigs.release.storeFile = file(storeFile)
+    android.signingConfigs.release.storePassword = storePassword
+    android.signingConfigs.release.keyPassword = keyPassword
+} else {
+    // configuration missing, drop signingConfig
+    buildTypes.release.signingConfig = null
 }

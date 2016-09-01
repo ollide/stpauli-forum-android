@@ -31,7 +31,10 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     public static final DateTimeFormatter APP_FORMATTER = DateTimeFormat.forPattern("dd.MM.yy HH:mm");
     public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
-    public static final DateTimeFormatter FORMATTER_QUOTES = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
+
+    public static final DateTimeFormatter FORMATTER_QUOTES_1 = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
+    public static final DateTimeFormatter FORMATTER_QUOTES_2 = DateTimeFormat.forPattern("dd-MM-yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
+    public static final DateTimeFormatter[] FORMATTER_QUOTES = new DateTimeFormatter[]{FORMATTER_QUOTES_1, FORMATTER_QUOTES_2};
 
     // eg. 'Mo 16 Jan ......'
     public static final Pattern QUOTE_ILLEGAL_PATTERN = Pattern.compile("[A-Z][a-z] [0-9]+(.*)");
@@ -325,7 +328,15 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         if (QUOTE_ILLEGAL_PATTERN.matcher(dateText).matches()) {
             dateText = fixDateTimText(dateText);
         }
-        return FORMATTER_QUOTES.parseLocalDateTime(dateText);
+
+        for (DateTimeFormatter formatterQuote : FORMATTER_QUOTES) {
+            try {
+                return formatterQuote.parseLocalDateTime(dateText);
+            } catch (IllegalArgumentException iae) {
+                //
+            }
+        }
+        throw new IllegalArgumentException("Invalid date format: " + dateText);
     }
 
     protected String fixDateTimText(String dateText) {

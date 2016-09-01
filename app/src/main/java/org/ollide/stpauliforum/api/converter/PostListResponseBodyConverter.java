@@ -241,26 +241,24 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         Element postbody = contentEl.getElementsByClass("postbody").get(0);
 
         List<Message> messages = new ArrayList<>();
-        PostMessage message = null;
+        String message = "";
         for (Node node : postbody.childNodesCopy()) {
             if ("table".equals(node.nodeName())) {
-                if (message != null && !message.getMessage().isEmpty()) {
-                    messages.add(message);
-                    message = null;
+                if (!StringUtils.isEmpty(message)) {
+                    message = processPlainHtmlText(message);
+                    messages.add(new PostMessage(message));
+                    message = "";
                 }
 
                 messages.add(parseQuotesFromMessage((Element) node));
             } else {
-                if (message == null) {
-                    message = new PostMessage();
-                }
-                String msg = processPlainHtmlText(node.outerHtml());
-                message.setMessage(message.getMessage() + msg);
+                message += node.outerHtml();
             }
         }
 
-        if (message != null && !message.getMessage().isEmpty()) {
-            messages.add(message);
+        if (!StringUtils.isEmpty(message)) {
+            message = processPlainHtmlText(message);
+            messages.add(new PostMessage(message));
         }
         p.setMessages(messages);
 

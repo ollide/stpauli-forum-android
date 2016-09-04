@@ -84,5 +84,5 @@ if (project.hasProperty('storeFile') &&
     android.signingConfigs.release.keyPassword = keyPassword
 } else {
     // configuration missing, drop signingConfig
-    buildTypes.release.signingConfig = null
+    android.buildTypes.release.signingConfig = null
 }

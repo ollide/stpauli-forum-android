@@ -24,7 +24,6 @@ public class LoginClient {
     private static Map<String, String> getLoginMap() {
         Map<String, String> map = new HashMap<>();
         map.put("autologin", "on");
-        map.put("redirect", "");
         map.put("login", "Login");
         return map;
     }

@@ -3,17 +3,22 @@ package org.ollide.stpauliforum.api;
 import android.content.Context;
 
 import org.ollide.stpauliforum.api.converter.PhpBbHtmlConverterFactory;
+import org.ollide.stpauliforum.api.http.PersistentCookieStore;
 import org.ollide.stpauliforum.api.network.CacheControlResponseInterceptor;
 import org.ollide.stpauliforum.api.network.ContentTypeResponseInterceptor;
 import org.ollide.stpauliforum.api.network.ForceCacheRequestInterceptor;
 
 import java.io.File;
+import java.net.CookieHandler;
+import java.net.CookieManager;
+import java.net.CookiePolicy;
 
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
 import okhttp3.Cache;
+import okhttp3.JavaNetCookieJar;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
@@ -31,8 +36,12 @@ public class ApiModule {
         File cacheDirectory = new File(context.getCacheDir().getAbsolutePath(), "HttpCache");
         Cache cache = new Cache(cacheDirectory, CACHE_SIZE);
 
+        CookieHandler cookieHandler = new CookieManager(
+                new PersistentCookieStore(context), CookiePolicy.ACCEPT_ALL);
+
         return new OkHttpClient.Builder()
                 .cache(cache)
+                .cookieJar(new JavaNetCookieJar(cookieHandler))
                 .addInterceptor(new ForceCacheRequestInterceptor())
                 .addNetworkInterceptor(new CacheControlResponseInterceptor())
                 .addNetworkInterceptor(new ContentTypeResponseInterceptor())
@@ -66,6 +75,12 @@ public class ApiModule {
     @Singleton
     LoginService provideLoginService(Retrofit retrofit) {
         return retrofit.create(LoginService.class);
+    }
+
+    @Provides
+    @Singleton
+    LoginClient provideLoginClient() {
+        return new LoginClient();
     }
 
 }

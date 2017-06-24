@@ -23,6 +23,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -36,7 +37,7 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
 
     public static final DateTimeFormatter FORMATTER_QUOTES_1 = DateTimeFormat.forPattern("dd.MM.yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1));
     public static final DateTimeFormatter FORMATTER_QUOTES_2 = DateTimeFormat.forPattern("dd-MM-yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1));
-    public static final DateTimeFormatter FORMATTER_QUOTES_3 = DateTimeFormat.forPattern("MMM dd yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1));
+    public static final DateTimeFormatter FORMATTER_QUOTES_3 = DateTimeFormat.forPattern("MMM dd yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1)).withLocale(Locale.GERMAN);
     public static final DateTimeFormatter[] FORMATTER_QUOTES = new DateTimeFormatter[]{FORMATTER_QUOTES_1, FORMATTER_QUOTES_2, FORMATTER_QUOTES_3};
 
     // eg. 'Mo 16 Jan ......'

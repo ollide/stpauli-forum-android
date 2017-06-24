@@ -8,7 +8,10 @@ public class Quote implements QuotedMessage {
 
     private String author;
 
+    @Nullable
     private String publishedAt;
+
+    @Nullable
     private LocalDateTime publishDate;
 
     private String message;
@@ -25,19 +28,21 @@ public class Quote implements QuotedMessage {
         this.author = author;
     }
 
+    @Nullable
     public String getPublishedAt() {
         return publishedAt;
     }
 
-    public void setPublishedAt(String publishedAt) {
+    public void setPublishedAt(@Nullable String publishedAt) {
         this.publishedAt = publishedAt;
     }
 
+    @Nullable
     public LocalDateTime getPublishDate() {
         return publishDate;
     }
 
-    public void setPublishDate(LocalDateTime publishDate) {
+    public void setPublishDate(@Nullable LocalDateTime publishDate) {
         this.publishDate = publishDate;
     }
 

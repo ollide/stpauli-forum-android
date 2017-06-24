@@ -72,9 +72,24 @@ public class PostListResponseBodyConverterTest {
 
     @Test
     public void testParseQuoteDateTime() {
-        String dateText = "Do 16 Jun 2016, 10:43";
-        LocalDateTime localDateTime = converter.parseQuoteDateTime(dateText);
-        assertNotNull(localDateTime);
+        assertEquals(LocalDateTime.parse("2016-06-16T10:43"),
+                converter.parseQuoteDateTime("Do 16 Jun 2016, 10:43"));
+
+        assertEquals(LocalDateTime.parse("2017-05-31T11:58"),
+                converter.parseQuoteDateTime("31 Mai 2017, 11:58"));
+
+        assertEquals(LocalDateTime.parse("2017-03-19T10:41"),
+                converter.parseQuoteDateTime("19 März 2017, 10:41"));
+
+        assertEquals(LocalDateTime.parse("2017-03-14T08:39"),
+                converter.parseQuoteDateTime(" Di 14.03.2017, 8:39 "));
+
+        assertEquals(LocalDateTime.parse("2017-05-31T22:26"),
+                converter.parseQuoteDateTime(" Mi Mai 31, 2017 22:26 "));
+
+        // TODO: another format ....
+//        assertEquals(LocalDateTime.parse("2014-07-22T06:57"),
+//                converter.parseQuoteDateTime(" Jul 2014, Di 22, 6:57 "));
     }
 
     @Test

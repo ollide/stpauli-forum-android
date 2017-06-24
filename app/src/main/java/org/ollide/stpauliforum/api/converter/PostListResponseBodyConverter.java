@@ -1,5 +1,7 @@
 package org.ollide.stpauliforum.api.converter;
 
+import android.support.annotation.Nullable;
+
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTimeZone;
 import org.joda.time.LocalDateTime;
@@ -32,12 +34,14 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
     public static final DateTimeFormatter APP_FORMATTER = DateTimeFormat.forPattern("dd.MM.yy HH:mm");
     public static final DateTimeFormatter FORMATTER = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm");
 
-    public static final DateTimeFormatter FORMATTER_QUOTES_1 = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
-    public static final DateTimeFormatter FORMATTER_QUOTES_2 = DateTimeFormat.forPattern("dd-MM-yyyy HH:mm").withZone(DateTimeZone.forOffsetHours(1));
-    public static final DateTimeFormatter[] FORMATTER_QUOTES = new DateTimeFormatter[]{FORMATTER_QUOTES_1, FORMATTER_QUOTES_2};
+    public static final DateTimeFormatter FORMATTER_QUOTES_1 = DateTimeFormat.forPattern("dd.MM.yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1));
+    public static final DateTimeFormatter FORMATTER_QUOTES_2 = DateTimeFormat.forPattern("dd-MM-yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1));
+    public static final DateTimeFormatter FORMATTER_QUOTES_3 = DateTimeFormat.forPattern("MMM dd yyyy H:mm").withZone(DateTimeZone.forOffsetHours(1));
+    public static final DateTimeFormatter[] FORMATTER_QUOTES = new DateTimeFormatter[]{FORMATTER_QUOTES_1, FORMATTER_QUOTES_2, FORMATTER_QUOTES_3};
 
     // eg. 'Mo 16 Jan ......'
-    public static final Pattern QUOTE_ILLEGAL_PATTERN = Pattern.compile("[A-Z][a-z] [0-9]+(.*)");
+    public static final Pattern QUOTE_DATE_STARTS_WITH_DAY = Pattern.compile("([A-Z][a-z] )(.*)");
+    public static final Pattern QUOTE_ILLEGAL_PATTERN = Pattern.compile("[0-9]+ [A-Za-z]+(.*)");
     public static final Pattern QUERY_PARAM_T_PATTERN = Pattern.compile("t=([^&]+)");
 
     public static final String CLASS_LINK_ICON = "snap_preview";
@@ -356,8 +360,10 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
             String dateText = StringUtils.substringBetween(dateTextEl.text(), "Originalbeitrag:", "GMT");
             if (dateText != null) {
                 LocalDateTime quoteDateTime = parseQuoteDateTime(dateText);
-                q.setPublishDate(quoteDateTime);
-                q.setPublishedAt(APP_FORMATTER.print(quoteDateTime));
+                if (quoteDateTime != null) {
+                    q.setPublishDate(quoteDateTime);
+                    q.setPublishedAt(APP_FORMATTER.print(quoteDateTime));
+                }
             }
             dateTextEl.remove();
         }
@@ -366,10 +372,19 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
         return q;
     }
 
+    @Nullable
     protected LocalDateTime parseQuoteDateTime(String dateText) {
         dateText = dateText.trim();
+
+        // strip 'Mo '
+        if (QUOTE_DATE_STARTS_WITH_DAY.matcher(dateText).matches()) {
+            dateText = dateText.substring(3);
+        }
+
         if (QUOTE_ILLEGAL_PATTERN.matcher(dateText).matches()) {
-            dateText = fixDateTimText(dateText);
+            dateText = fixDateTimeText(dateText);
+        } else if (dateText.contains(",")) {
+            dateText = dateText.replaceAll(",", "");
         }
 
         for (DateTimeFormatter formatterQuote : FORMATTER_QUOTES) {
@@ -379,17 +394,23 @@ public class PostListResponseBodyConverter extends HtmlConverter<PostList> {
                 //
             }
         }
-        throw new IllegalArgumentException("Invalid date format: " + dateText);
+
+        Timber.w("Could not parse date format '%s'", dateText);
+        return null;
     }
 
-    protected String fixDateTimText(String dateText) {
-        // strip 'Mo '
-        dateText = dateText.substring(3);
-
+    /**
+     * Normalizes multiple post date formats.
+     *
+     * eg. "Do 16 Jun 2016, 10:43" -> "16.06.2016 10:43"
+     * eg. "31 Mai 2017, 11:58" -> "31.05.2017 11:58"
+     */
+    protected String fixDateTimeText(String dateText) {
         // replace 'Jan', 'Feb', ... with 01, 02,...
         dateText = dateText.replace("Jan", "01");
         dateText = dateText.replace("Feb", "02");
         dateText = dateText.replace("Mar", "03");
+        dateText = dateText.replace("März", "03");
         dateText = dateText.replace("Apr", "04");
         dateText = dateText.replace("Mai", "05");
         dateText = dateText.replace("Jun", "06");

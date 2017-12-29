@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "org.ollide.stpauliforum"
@@ -38,18 +38,18 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.4.0'
-    compile 'com.android.support:design:25.4.0'
-    compile 'com.android.support:recyclerview-v7:25.4.0'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
 
     // Dagger
-    compile 'com.google.dagger:dagger:2.11'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
+    compile 'com.google.dagger:dagger:2.14.1'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.14.1'
     compile 'javax.annotation:jsr250-api:1.0'
 
     // Network
-    compile 'com.squareup.okhttp3:okhttp:3.8.1'
-    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.8.1'
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.9.1'
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
     compile("com.squareup.retrofit2:converter-simplexml:2.3.0") {
         exclude module: 'stax'
@@ -57,22 +57,22 @@ dependencies {
         exclude module: 'xpp3'
     }
 
-    compile 'com.jakewharton:butterknife:8.6.0'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
     // Html parsing
-    compile 'org.jsoup:jsoup:1.10.3'
-    compile 'org.apache.commons:commons-lang3:3.6'
+    compile 'org.jsoup:jsoup:1.11.2'
+    compile 'org.apache.commons:commons-lang3:3.7'
 
     // image loading
     compile 'com.squareup.picasso:picasso:2.5.2'
 
     // Logging
-    compile 'com.jakewharton.timber:timber:4.5.1'
+    compile 'com.jakewharton.timber:timber:4.6.0'
 
-    compile 'net.danlew:android.joda:2.9.9'
+    compile 'net.danlew:android.joda:2.9.9.1'
     testCompile 'joda-time:joda-time:2.9.9'
-    testCompile 'commons-io:commons-io:2.5'
+    testCompile 'commons-io:commons-io:2.6'
 
 }
 
